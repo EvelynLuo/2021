@@ -1,0 +1,15 @@
+
+<http://vocab.getty.edu/aat/> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> , <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+	<http://www.w3.org/2000/01/rdf-schema#comment> "The Art and Architecture Thesaurus concept scheme" ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Art and Architecture Thesaurus" ;
+	<http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.getty.edu/research/tools/vocabularies/lod/> , <http://vocab.getty.edu/.well-known/void> , <http://vocab.getty.edu/> ;
+	<http://purl.org/dc/terms/created> "2014-02-20"^^<http://www.w3.org/2001/XMLSchema#date> , "2014-02-20"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<http://purl.org/dc/terms/issued> "2014-02-20"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<http://purl.org/dc/terms/creator> <http://www.getty.edu/research/> , <http://www.getty.edu/research/> , <http://www.ontotext.com> ;
+	<http://purl.org/vocab/vann/preferredNamespacePrefix> "aat" , "aat" ;
+	<http://purl.org/vocab/vann/preferredNamespaceUri> "http://vocab.getty.edu/aat/" , "http://vocab.getty.edu/aat/" ;
+	<http://xmlns.com/foaf/0.1/homepage> <http://www.getty.edu/research/tools/vocabularies/aat/> ;
+	<http://purl.org/dc/terms/title> "Art & Architecture Thesaurus (AAT) (R) concept scheme" ;
+	<http://purl.org/dc/terms/publisher> <http://www.getty.edu/research/> ;
+	<http://purl.org/dc/terms/rightsHolder> <http://www.getty.edu/research/> ;
+	<http://xmlns.com/foaf/0.1/maker> <http://www.getty.edu/research/> .
