@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://www.cidoc-crm.org/cidoc-crm/" uri="CIDOCCRM_ecrm.owl.xml"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1658172681671" name="http://bimerr.iot.linkeddata.es/def/material-properties" uri="materialOnto.xml"/>
+        <uri id="Automatically generated entry, Timestamp=1658172681671" name="http://erlangen-crm.org/current/" uri="crm.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1658172681671" name="http://www.cidoc-crm.org/cidoc-crm/" uri="CIDOCCRM_ecrm.owl.xml"/>
+        <uri id="Automatically generated entry, Timestamp=1658172681671" name="duplicate:http://www.w3.org/2002/07/owl" uri="fixedOntoModel.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1658172681671" name="duplicate:http://www.w3.org/2002/07/owl" uri="rdfSkos.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1658172681671" name="shadowed:http://www.cidoc-crm.org/cidoc-crm/" uri="Telegram%20Desktop/CIDOCCRM_ecrm.owl.xml"/>
+    </group>
+</catalog>

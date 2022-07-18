@@ -10,7 +10,6 @@
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-	xmlns:ecrm="http://erlangen-crm.org/current/"
   xml:base="http://www.cidoc-crm.org/cidoc-crm/">
   <owl:Ontology rdf:about="">
     <rdfs:comment xml:lang="en">Erlangen CRM / OWL - An OWL DL 1.0 implementation of the CIDOC Conceptual Reference Model, based on: Nick Crofts, Martin Doerr, Tony Gill, Stephen Stead, Matthew Stiff (eds.): Definition of the CIDOC Conceptual Reference Model (http://cidoc-crm.org/).
@@ -22,7 +21,6 @@ The Erlangen CRM / OWL implementation of the CIDOC Conceptual Reference Model is
     >ECRM 150929 / CIDOC-CRM 6.2</owl:versionInfo>
   </owl:Ontology>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E57_Material"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
     <rdfs:subClassOf>
       <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     </rdfs:subClassOf>
@@ -45,7 +43,6 @@ Examples:
     <rdfs:label xml:lang="en">E57 Material</rdfs:label>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E66_Formation"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E66_Formation"/>
     <rdfs:comment xml:lang="en">Scope note: 
 This class comprises events that result in the formation of a formal or informal E74 Group of people,
 such as a club, society, association, corporation or nation.
@@ -83,7 +80,6 @@ E66(x) ⊃ E63(x)</rdfs:comment>
     >E66</skos:notation>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E93_Presence"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E93_Presence"/>
     <rdfs:label xml:lang="en">E93 Spacetime Snapshot</rdfs:label>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >E93</skos:notation>
@@ -99,7 +95,6 @@ In First Order Logic:
 E93(x) ⊃ E92(x)</rdfs:comment>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E37_Mark"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E37_Mark"/>
     <rdfs:comment xml:lang="en">Scope note:
 This class comprises symbols, signs, signatures or short texts applied to instances of E24 Physical Man-Made Thing by arbitrary techniques in order to indicate the creator, owner, dedications, purpose, etc.
 
@@ -120,7 +115,6 @@ E37(x) ⊃ E36(x)</rdfs:comment>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Man-Made_Thing"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E24_Physical_Man-Made_Thing"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >E24</skos:notation>
     <rdfs:subClassOf>
@@ -155,7 +149,6 @@ E24(x) ⊃ E71(x)</rdfs:comment>
     <rdfs:label xml:lang="en">E24 Physical Man-Made Thing</rdfs:label>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E25_Man-Made_Feature"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E25_Man-Made_Feature"/>
     <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Man-Made_Thing"/>
     <rdfs:subClassOf>
       <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E26_Physical_Feature"/>
@@ -177,7 +170,6 @@ E25(x) ⊃ E24(x)</rdfs:comment>
     >E25</skos:notation>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E29_Design_or_Procedure"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E29_Design_or_Procedure"/>
     <rdfs:label xml:lang="en">E29 Design or Procedure</rdfs:label>
     <rdfs:comment xml:lang="en">Scope note:
 This class comprises documented plans for the execution of actions in order to achieve a result of a specific quality, form or contents. In particular it comprises plans for deliberate human activities that may result in the modification or production of instances of E24 Physical Thing.
@@ -207,7 +199,6 @@ E29(x) ⊃ E73(x)</rdfs:comment>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E84_Information_Carrier"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E84_Information_Carrier"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >E84</skos:notation>
     <rdfs:label xml:lang="en">E84 Information Carrier</rdfs:label>
@@ -228,7 +219,6 @@ In First Order Logic:
 E84(x) ⊃ E22(x)</rdfs:comment>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E77_Persistent_Item"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E77_Persistent_Item"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >E77</skos:notation>
     <rdfs:subClassOf>
@@ -254,7 +244,6 @@ E77(x) ⊃ E1(x)</rdfs:comment>
     <rdfs:label xml:lang="en">E77 Persistent Item</rdfs:label>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E34_Inscription"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E34_Inscription"/>
     <rdfs:subClassOf>
       <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
     </rdfs:subClassOf>
@@ -278,7 +267,6 @@ E34(x) ⊃ E37(x)</rdfs:comment>
     >E34</skos:notation>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E70_Thing"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E70_Thing"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >E70</skos:notation>
     <rdfs:label xml:lang="en">E70 Thing</rdfs:label>
@@ -300,7 +288,6 @@ In First Order Logic:
 E70(x) ⊃ E77(x)</rdfs:comment>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E36_Visual_Item"/>
     <rdfs:label xml:lang="en">E36 Visual Item</rdfs:label>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >E36</skos:notation>
@@ -324,7 +311,6 @@ E36(x) ⊃ E73(x)</rdfs:comment>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E13_Attribute_Assignment"/>
     <rdfs:subClassOf>
       <owl:Restriction>
         <owl:someValuesFrom>
@@ -352,7 +338,6 @@ Examples:
 - the assessment of the current ownership of Martin Doerr's silver cup in February 1997</rdfs:comment>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E69_Death"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E69_Death"/>
     <rdfs:comment xml:lang="en">Scope note:
 This class comprises the deaths of human beings.
 If a person is killed, their death should be instantiated as E69 Death and as E7 Activity. The death or perishing of other living beings should be documented using E64 End of Existence.
@@ -381,7 +366,6 @@ E69(x) ⊃ E64(x)</rdfs:comment>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E8_Acquisition"/>
     <rdfs:comment xml:lang="en">Scope note:
 This class comprises transfers of legal ownership from one or more instances of E39 Actor to one or more other instances of E39 Actor.
 
@@ -419,7 +403,6 @@ E8(x) ⊃ E7(x)</rdfs:comment>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E14_Condition_Assessment"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E14_Condition_Assessment"/>
     <rdfs:comment xml:lang="en">Scope note:
 This class describes the act of assessing the state of preservation of an object during a particular period.
 
@@ -455,7 +438,6 @@ E14(x) ⊃ E13(x)</rdfs:comment>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E92_Spacetime_Volume"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E92_Spacetime_Volume"/>
     <rdfs:label xml:lang="en">E92 Spacetime Volume</rdfs:label>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Scope note:
@@ -476,7 +458,6 @@ E92(x) ⊃ E1(x)</rdfs:comment>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E80_Part_Removal"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E80_Part_Removal"/>
     <rdfs:subClassOf>
       <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E11_Modification"/>
     </rdfs:subClassOf>
@@ -514,7 +495,6 @@ E80(x) ⊃ E11(x)</rdfs:comment>
     <rdfs:label xml:lang="en">E80 Part Removal</rdfs:label>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E31_Document"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E31_Document"/>
     <rdfs:label xml:lang="en">E31 Document</rdfs:label>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >E31</skos:notation>
@@ -544,7 +524,6 @@ E31(x) ⊃ E73(x)</rdfs:comment>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E4_Period"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E4_Period"/>
     <rdfs:label xml:lang="en">E4 Period</rdfs:label>
     <rdfs:subClassOf>
       <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E2_Temporal_Entity"/>
@@ -629,7 +608,6 @@ E4(x) ⊃ E92(x)</rdfs:comment>
     >E4</skos:notation>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E72_Legal_Object"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E72_Legal_Object"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >E72</skos:notation>
     <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E70_Thing"/>
@@ -667,7 +645,6 @@ In First Order Logic:
 E72(x) ⊃ E70(x)</rdfs:comment>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E19_Physical_Object"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E19_Physical_Object"/>
     <rdfs:label xml:lang="en">E19 Physical Object</rdfs:label>
     <rdfs:comment xml:lang="en">Scope note:
 This class comprises items of a material nature that are units for documentation and have physical boundaries that separate them completely in an objective way from other objects.
@@ -712,7 +689,6 @@ E19(x) ⊃ E18(x)</rdfs:comment>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E2_Temporal_Entity"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E2_Temporal_Entity"/>
     <owl:disjointWith rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E77_Persistent_Item"/>
     <rdfs:label xml:lang="en">E2 Temporal Entity</rdfs:label>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -744,7 +720,6 @@ In First Order Logic:
 E2(x) ⊃ E1(x)</rdfs:comment>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E49_Time_Appellation"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E49_Time_Appellation"/>
     <rdfs:comment xml:lang="en">Scope note:
 This class comprises all forms of names or codes, such as historical periods, and dates, which are characteristically used to refer to a specific E52 Time-Span.
 
@@ -767,7 +742,6 @@ E49(x) ⊃ E41(x)</rdfs:comment>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E58_Measurement_Unit"/>
     <rdfs:label xml:lang="en">E58 Measurement Unit</rdfs:label>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >E58</skos:notation>
@@ -799,7 +773,6 @@ Examples:
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E79_Part_Addition"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E79_Part_Addition"/>
     <rdfs:comment xml:lang="en">Scope note:
 This class comprises activities that result in an instance of E24 Physical Man-Made Thing being increased, enlarged or augmented by the addition of a part.
 
@@ -837,7 +810,6 @@ E79(x) ⊃ E11(x)</rdfs:comment>
     >E79</skos:notation>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E75_Conceptual_Object_Appellation"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E75_Conceptual_Object_Appellation"/>
     <rdfs:subClassOf>
       <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
     </rdfs:subClassOf>
@@ -859,7 +831,6 @@ E75(x) ⊃ E41(x)</rdfs:comment>
     >E75</skos:notation>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E45_Address"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E45_Address"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >E45</skos:notation>
     <rdfs:label xml:lang="en">E45 Address</rdfs:label>
@@ -883,7 +854,6 @@ E45(x) ⊃ E51(x)</rdfs:comment>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E65_Creation"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E65_Creation"/>
     <rdfs:label xml:lang="en">E65 Creation</rdfs:label>
     <rdfs:comment xml:lang="en">Scope note:
 This class comprises events that result in the creation of conceptual items or immaterial products, such as legends, poems, texts, music, images, movies, laws, types etc.
@@ -915,7 +885,6 @@ E65(x) ⊃ E63(x)</rdfs:comment>
     >E65</skos:notation>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E32_Authority_Document"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E32_Authority_Document"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >E32</skos:notation>
     <rdfs:label xml:lang="en">E32 Authority Document</rdfs:label>
@@ -932,7 +901,6 @@ E32(x) ⊃ E31(x)</rdfs:comment>
     <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E31_Document"/>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E47_Spatial_Coordinates"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E47_Spatial_Coordinates"/>
     <rdfs:label xml:lang="en">E47 Spatial Coordinates</rdfs:label>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >E47</skos:notation>
@@ -952,7 +920,6 @@ In First Order Logic:
 E47(x) ⊃ E44(x)</rdfs:comment>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E18_Physical_Thing"/>
     <rdfs:subClassOf>
       <owl:Restriction>
         <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
@@ -1022,7 +989,6 @@ E18(x) ⊃ E92(x)</rdfs:comment>
     <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E92_Spacetime_Volume"/>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E73_Information_Object"/>
     <rdfs:comment xml:lang="en">Scope note:
 This class comprises identifiable immaterial items, such as a poems, jokes, data sets, images, texts, multimedia objects, procedural prescriptions, computer program code, algorithm or mathematical formulae, that have an objectively recognizable structure and are documented as single units.
 The encoding structure known as a "named graph" also falls under this class, so that each "named graph" is an instance of an E73 Information Object.
@@ -1047,7 +1013,6 @@ Examples:
     <rdfs:label xml:lang="en">E73 Information Object</rdfs:label>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E3_Condition_State"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >E3</skos:notation>
     <rdfs:comment xml:lang="en">Scope note:
@@ -1079,7 +1044,6 @@ E3(x) ⊃ E2(x)</rdfs:comment>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E27_Site"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E27_Site"/>
     <rdfs:label xml:lang="en">E27 Site</rdfs:label>
     <rdfs:comment xml:lang="en">Scope note:
 This class comprises pieces of land or sea floor. 
@@ -1104,7 +1068,6 @@ E27(x)⊃ E26(x)</rdfs:comment>
     >E27</skos:notation>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E81_Transformation"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E81_Transformation"/>
     <rdfs:subClassOf>
       <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E63_Beginning_of_Existence"/>
     </rdfs:subClassOf>
@@ -1143,7 +1106,6 @@ E81(x) ⊃ E64(x)</rdfs:comment>
     <rdfs:label xml:lang="en">E81 Transformation</rdfs:label>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E48_Place_Name"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E48_Place_Name"/>
     <rdfs:comment xml:lang="en">Scope note:
 This class comprises particular and common forms of E44 Place Appellation.
 
@@ -1165,7 +1127,6 @@ E48(x) ⊃ E44(x)</rdfs:comment>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E55_Type"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
     <rdfs:label xml:lang="en">E55 Type</rdfs:label>
     <rdfs:comment xml:lang="en">Scope note:
 This class comprises concepts denoted by terms from thesauri and controlled vocabularies used to characterize and classify instances of CRM classes. Instances of E55 Type represent concepts  in contrast to instances of E41 Appellation which are used to name instances of CRM classes.
@@ -1200,7 +1161,6 @@ E55(x) ⊃ E28(x)</rdfs:comment>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E1_CRM_Entity"/>
     <rdfs:label xml:lang="en">E1 CRM Entity</rdfs:label>
     <rdfs:comment xml:lang="en">Scope note:
 This class comprises all things in the universe of discourse of the CIDOC Conceptual Reference Model. 
@@ -1231,7 +1191,6 @@ E1(x)</rdfs:comment>
     >E1</skos:notation>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E54_Dimension"/>
     <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
     <rdfs:subClassOf>
       <owl:Restriction>
@@ -1267,7 +1226,6 @@ E54(x) ⊃ E1(x)</rdfs:comment>
     <rdfs:label xml:lang="en">E54 Dimension</rdfs:label>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E42_Identifier"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E42_Identifier"/>
     <rdfs:label xml:lang="en">E42 Identifier</rdfs:label>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >E42</skos:notation>
@@ -1291,7 +1249,6 @@ In First Order Logic:
 E42(x) ⊃ E41(x)</rdfs:comment>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E39_Actor"/>
     <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E77_Persistent_Item"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >E39</skos:notation>
@@ -1310,7 +1267,6 @@ E39(x) ⊃ E77(x)</rdfs:comment>
     <rdfs:label xml:lang="en">E39 Actor</rdfs:label>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E64_End_of_Existence"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E64_End_of_Existence"/>
     <rdfs:label xml:lang="en">E64 End of Existence</rdfs:label>
     <rdfs:comment xml:lang="en">Scope note:
 This class comprises events that end the existence of any E77 Persistent Item.
@@ -1339,7 +1295,6 @@ E64(x) ⊃ E5(x)</rdfs:comment>
     >E64</skos:notation>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E12_Production"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E12_Production"/>
     <rdfs:comment xml:lang="en">Scope note:
 This class comprises activities that are designed to, and succeed in, creating one or more new items.
 
@@ -1375,7 +1330,6 @@ E12(x) ⊃ E63(x)</rdfs:comment>
     >E12</skos:notation>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E26_Physical_Feature"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E26_Physical_Feature"/>
     <rdfs:comment xml:lang="en">Scope note:
 This class comprises identifiable features that are physically attached in an integral way to particular physical objects.
 
@@ -1408,7 +1362,6 @@ E26(x) ⊃ E18(x)</rdfs:comment>
     <rdfs:label xml:lang="en">E26 Physical Feature</rdfs:label>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E50_Date"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E50_Date"/>
     <rdfs:comment xml:lang="en">Scope note:
 This class comprises specific forms of E49 Time Appellation.
 
@@ -1428,7 +1381,6 @@ E50(x) ⊃ E49(x)</rdfs:comment>
     <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E49_Time_Appellation"/>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E21_Person"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E21_Person"/>
     <rdfs:label xml:lang="en">E21 Person</rdfs:label>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >E21</skos:notation>
@@ -1468,7 +1420,6 @@ E21(x) ⊃ E39(x)</rdfs:comment>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E67_Birth"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E67_Birth"/>
     <rdfs:label xml:lang="en">E67 Birth</rdfs:label>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >E67</skos:notation>
@@ -1503,7 +1454,6 @@ E67(x) ⊃ E63(x)</rdfs:comment>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E41_Appellation"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >E41</skos:notation>
     <rdfs:subClassOf>
@@ -1531,7 +1481,6 @@ E41(x) ⊃ E90(x)</rdfs:comment>
     <rdfs:label xml:lang="en">E41 Appellation</rdfs:label>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E90_Symbolic_Object"/>
     <rdfs:label xml:lang="en">E90 Symbolic Object</rdfs:label>
     <rdfs:comment xml:lang="en">Scope note:
 This class comprises identifiable symbols and any aggregation of symbols, such as characters, identifiers, traffic signs, emblems, texts, data sets, images, musical scores, multimedia objects, computer program code or mathematical formulae that have an objectively recognizable structure and that are documented as single units. 
@@ -1569,7 +1518,6 @@ E90(x) ⊃ E72(x)</rdfs:comment>
     >E90</skos:notation>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E89_Propositional_Object"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >E89</skos:notation>
     <rdfs:subClassOf>
@@ -1615,7 +1563,6 @@ E89(x) ⊃ E28(x)</rdfs:comment>
     <rdfs:label xml:lang="en">E89 Propositional Object</rdfs:label>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E46_Section_Definition"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E46_Section_Definition"/>
     <rdfs:label xml:lang="en">E46 Section Definition</rdfs:label>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >E46</skos:notation>
@@ -1646,7 +1593,6 @@ In First Order Logic:
 E46(x) ⊃ E44(x)</rdfs:comment>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E15_Identifier_Assignment"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E15_Identifier_Assignment"/>
     <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment"/>
     <rdfs:subClassOf>
       <owl:Restriction>
@@ -1675,7 +1621,6 @@ In First Order Logic:
 E15(x) ⊃ E13(x)</rdfs:comment>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E51_Contact_Point"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E51_Contact_Point"/>
     <rdfs:comment xml:lang="en">Scope note:
 This class comprises identifiers employed, or understood, by communication services to direct communications to an instance of E39 Actor. These include E-mail addresses, telephone numbers, post office boxes, Fax numbers, URLs etc. Most postal addresses can be considered both as instances of E44 Place Appellation and E51 Contact Point. In such cases the subclass E45 Address should be used.
 URLs are addresses used by machines to access another machine through an http request. Since the accessed machine acts on behalf of the E39 Actor providing the machine, URLs are considered as instances of E51 Contact Point to that E39 Actor.
@@ -1700,7 +1645,6 @@ E51(x) ⊃ E41(x)</rdfs:comment>
     >E51</skos:notation>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E74_Group"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E74_Group"/>
     <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
     <rdfs:subClassOf>
       <owl:Restriction>
@@ -1763,7 +1707,6 @@ E74(x) ⊃ E39(x)</rdfs:comment>
     >E74</skos:notation>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E82_Actor_Appellation"/>
     <rdfs:label xml:lang="en">E82 Actor Appellation</rdfs:label>
     <rdfs:comment xml:lang="en">Scope note:
 This class comprises any sort of name, number, code or symbol characteristically used to identify an E39 Actor.
@@ -1787,7 +1730,6 @@ E82(x) ⊃ E41(x)</rdfs:comment>
     >E82</skos:notation>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E28_Conceptual_Object"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >E28</skos:notation>
     <rdfs:label xml:lang="en">E28 Conceptual Object</rdfs:label>
@@ -1820,7 +1762,6 @@ In First Order Logic:
 E28(x) ⊃ E71(x)</rdfs:comment>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E86_Leaving"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E86_Leaving"/>
     <rdfs:label xml:lang="en">E86 Leaving</rdfs:label>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >E86</skos:notation>
@@ -1858,7 +1799,6 @@ In First Order Logic:
 E86(x) ⊃ E7(x)</rdfs:comment>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E56_Language"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E56_Language"/>
     <rdfs:label xml:lang="en">E56 Language</rdfs:label>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >E56</skos:notation>
@@ -1881,7 +1821,6 @@ In First Order Logic:
 E56(x) ⊃ E55(x)</rdfs:comment>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E85_Joining"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E85_Joining"/>
     <rdfs:comment xml:lang="en">Scope note:
 This class comprises the activities that result in an instance of E39 Actor becoming a member of an instance of E74 Group. This class does not imply initiative by either party.
 
@@ -1920,7 +1859,6 @@ E85(x) ⊃ E7(x)</rdfs:comment>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E11_Modification"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E11_Modification"/>
     <rdfs:subClassOf>
       <owl:Restriction>
         <owl:onProperty>
@@ -1954,7 +1892,6 @@ E11(x) ⊃ E7(x)</rdfs:comment>
     >E11</skos:notation>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E17_Type_Assignment"/>
     <rdfs:label xml:lang="en">E17 Type Assignment</rdfs:label>
     <rdfs:comment xml:lang="en">Scope note:
 This class comprises the actions of classifying items of whatever kind. Such items include objects, specimens, people, actions and concepts.
@@ -1989,7 +1926,6 @@ E17(x) ⊃ E13(x)</rdfs:comment>
     >E17</skos:notation>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E63_Beginning_of_Existence"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E63_Beginning_of_Existence"/>
     <rdfs:comment xml:lang="en">Scope note:
 This class comprises events that bring into existence any E77 Persistent Item.
 
@@ -2019,7 +1955,6 @@ E63(x) ⊃ E5(x)</rdfs:comment>
     >E63</skos:notation>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E83_Type_Creation"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E83_Type_Creation"/>
     <rdfs:label xml:lang="en">E83 Type Creation</rdfs:label>
     <rdfs:comment xml:lang="en">Scope note:
 This class comprises activities formally defining new types of items.
@@ -2045,7 +1980,6 @@ E83(x) ⊃ E65(x)</rdfs:comment>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E6_Destruction"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E6_Destruction"/>
     <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E64_End_of_Existence"/>
     <rdfs:subClassOf>
       <owl:Restriction>
@@ -2077,7 +2011,6 @@ In First Order Logic:
 E6(x) ⊃ E64(x)</rdfs:comment>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E71_Man-Made_Thing"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E71_Man-Made_Thing"/>
     <rdfs:label xml:lang="en">E71 Man-Made Thing</rdfs:label>
     <rdfs:comment xml:lang="en">Scope note:
 This class comprises discrete, identifiable man-made items that are documented as single units.
@@ -2097,7 +2030,6 @@ E71(x) ⊃ E70(x)</rdfs:comment>
     >E71</skos:notation>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E78_Collection"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E78_Collection"/>
     <rdfs:comment xml:lang="en">Scope note:
 This class comprises aggregations of instances of E18 Physical Thing that are assembled and maintained ("curated" and "preserved," in museological terminology) by one or more instances of E39 Actor over time for a specific purpose and audience, and according to a particular collection development plan.
 
@@ -2126,7 +2058,6 @@ E78(x) ⊃ E24(x)</rdfs:comment>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E40_Legal_Body"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E40_Legal_Body"/>
     <rdfs:subClassOf>
       <owl:Restriction>
         <owl:onProperty>
@@ -2155,7 +2086,6 @@ E40(x) ⊃ E74(x)</rdfs:comment>
     >E40</skos:notation>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E9_Move"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E9_Move"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >E9</skos:notation>
     <rdfs:label xml:lang="en">E9 Move</rdfs:label>
@@ -2203,7 +2133,6 @@ E9(x) ⊃ E7(x)</rdfs:comment>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E33_Linguistic_Object"/>
     <rdfs:subClassOf>
       <owl:Restriction>
         <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
@@ -2242,7 +2171,6 @@ E33(x) ⊃ E73(x)</rdfs:comment>
     >E33</skos:notation>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E68_Dissolution"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E68_Dissolution"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >E68</skos:notation>
     <rdfs:label xml:lang="en">E68 Dissolution</rdfs:label>
@@ -2268,7 +2196,6 @@ E68(x) ⊃ E64(x)</rdfs:comment>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E16_Measurement"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E16_Measurement"/>
     <rdfs:comment xml:lang="en">Scope note:
 This class comprises actions measuring physical properties and other values that can be determined by a systematic procedure.
 
@@ -2305,7 +2232,6 @@ E16(x) ⊃ E13(x)</rdfs:comment>
     >E16</skos:notation>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E7_Activity"/>
     <rdfs:comment xml:lang="en">Scope note:
 This class comprises actions intentionally carried out by instances of E39 Actor that result in changes of state in the cultural, social, or physical systems documented.
 
@@ -2339,7 +2265,6 @@ E7(x) ⊃ E5(x)</rdfs:comment>
     >E7</skos:notation>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E44_Place_Appellation"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E44_Place_Appellation"/>
     <rdfs:comment xml:lang="en">Scope note:
 This class comprises any sort of identifier characteristically used to refer to an E53 Place.
 
@@ -2362,7 +2287,6 @@ E44(x) ⊃ E41(x)</rdfs:comment>
     >E44</skos:notation>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E52_Time-Span"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >E52</skos:notation>
     <rdfs:label xml:lang="en">E52 Time-Span</rdfs:label>
@@ -2413,7 +2337,6 @@ E52(x) ⊃ E1(x)</rdfs:comment>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E5_Event"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E5_Event"/>
     <rdfs:label xml:lang="en">E5 Event</rdfs:label>
     <rdfs:comment xml:lang="en">Scope note:
 This class comprises changes of states in cultural, social or physical systems, regardless of scale, brought about by a series or group of coherent physical, cultural, technological or legal phenomena. Such changes of state will affect instances of E77 Persistent Item or its subclasses.
@@ -2444,7 +2367,6 @@ E5(x) ⊃ E4(x)</rdfs:comment>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E22_Man-Made_Object"/>
     <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E19_Physical_Object"/>
     <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Man-Made_Thing"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -2465,7 +2387,6 @@ E22(x) ⊃ E19(x)
 E22(x) ⊃ E24(x)</rdfs:comment>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E30_Right"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E30_Right"/>
     <rdfs:subClassOf>
       <owl:Restriction>
         <owl:onProperty>
@@ -2491,7 +2412,6 @@ E30(x) ⊃ E89(x</rdfs:comment>
     >E30</skos:notation>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E10_Transfer_of_Custody"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E10_Transfer_of_Custody"/>
     <rdfs:label xml:lang="en">E10 Transfer of Custody</rdfs:label>
     <rdfs:comment xml:lang="en">Scope note:
 This class comprises transfers of physical custody of objects between instances of E39 Actor.
@@ -2526,7 +2446,6 @@ E10(x) ⊃ E7(x)</rdfs:comment>
     >E10</skos:notation>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E53_Place"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E53_Place"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >E53</skos:notation>
     <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
@@ -2559,7 +2478,6 @@ E53(x) ⊃ E1(x)</rdfs:comment>
     <rdfs:label xml:lang="en">E53 Place</rdfs:label>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E35_Title"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E35_Title"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >E35</skos:notation>
     <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
@@ -2583,7 +2501,6 @@ E35(x) ⊃ E33(x)
 E35(x) ⊃ E41(x)</rdfs:comment>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E20_Biological_Object"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E20_Biological_Object"/>
     <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E19_Physical_Object"/>
     <rdfs:comment xml:lang="en">Scope note:
 This class comprises individual items of a material nature, which live, have lived or are natural products of or from living organisms.
@@ -2603,7 +2520,6 @@ E20(x) ⊃ E19(x)</rdfs:comment>
     <rdfs:label xml:lang="en">E20 Biological Object</rdfs:label>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E38_Image"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E38_Image"/>
     <rdfs:label xml:lang="en">E38 Image</rdfs:label>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >E38</skos:notation>
@@ -2621,7 +2537,6 @@ In First Order Logic:
 E38(x) ⊃ E36(x)</rdfs:comment>
   </owl:Class>
   <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E87_Curation_Activity"> 
-<owl:equivalentClass rdf:resource="http://erlangen-crm.org/current/E87_Curation_Activity"/>
     <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
     <rdfs:subClassOf>
       <owl:Restriction>
@@ -2648,7 +2563,6 @@ In First Order Logic:
 E87(x) ⊃ E7(x)</rdfs:comment>
   </owl:Class>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P143i_was_joined_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P143i_was_joined_by"/>
     <rdfs:label xml:lang="en">P143 was joined by</rdfs:label>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E85_Joining"/>
     <rdfs:subPropertyOf>
@@ -2662,7 +2576,6 @@ E87(x) ⊃ E7(x)</rdfs:comment>
     >P143i</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P101i_was_use_of"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P101i_was_use_of"/>
     <owl:inverseOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P101_had_as_general_use"/>
     </owl:inverseOf>
@@ -2673,7 +2586,6 @@ E87(x) ⊃ E7(x)</rdfs:comment>
     <rdfs:label xml:lang="en">P101 was use of</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P86i_contains"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P86i_contains"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P86i</skos:notation>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span"/>
@@ -2685,7 +2597,6 @@ E87(x) ⊃ E7(x)</rdfs:comment>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P151_was_formed_from"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P151_was_formed_from"/>
     <rdfs:label xml:lang="en">P151 was formed from</rdfs:label>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Scope note:
@@ -2711,7 +2622,6 @@ P151(x,y) ⊃ P11(x,y)</rdfs:comment>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P110_augmented"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P110_augmented"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Man-Made_Thing"/>
     <rdfs:subPropertyOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P31_has_modified"/>
@@ -2737,12 +2647,10 @@ P110(x,y) ⊃ P31(x,y)</rdfs:comment>
     <rdfs:label xml:lang="en">P110 augmented</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P164i_was_time-span_of"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P164i_was_time-span_of"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E93_Presence"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P10i_contains"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P10i_contains"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E92_Spacetime_Volume"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -2754,7 +2662,6 @@ P110(x,y) ⊃ P31(x,y)</rdfs:comment>
     <rdfs:label xml:lang="en">P10 contains</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P38i_was_deassigned_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P38i_was_deassigned_by"/>
     <rdfs:subPropertyOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P141i_was_assigned_by"/>
     </rdfs:subPropertyOf>
@@ -2768,7 +2675,6 @@ P110(x,y) ⊃ P31(x,y)</rdfs:comment>
     >P38i</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P54i_is_current_permanent_location_of"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P54i_is_current_permanent_location_of"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E19_Physical_Object"/>
     <rdfs:label xml:lang="en">P54 is current permanent location of</rdfs:label>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -2779,7 +2685,6 @@ P110(x,y) ⊃ P31(x,y)</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P76i_provides_access_to"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P76i_provides_access_to"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P76i</skos:notation>
     <rdfs:label xml:lang="en">P76 provides access to</rdfs:label>
@@ -2790,7 +2695,6 @@ P110(x,y) ⊃ P31(x,y)</rdfs:comment>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P100_was_death_of"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P100_was_death_of"/>
     <rdfs:subPropertyOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P93_took_out_of_existence"/>
     </rdfs:subPropertyOf>
@@ -2812,7 +2716,6 @@ Examples:
 - Mozart's death (E69) was death of Mozart (E21)</rdfs:comment>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P95_has_formed"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P95_has_formed"/>
     <rdfs:subPropertyOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P92_brought_into_existence"/>
     </rdfs:subPropertyOf>
@@ -2836,7 +2739,6 @@ P95(x,y) ⊃ P92(x,y)</rdfs:comment>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P108_has_produced"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P108_has_produced"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P108</skos:notation>
     <rdfs:comment xml:lang="en">Scope note:
@@ -2865,7 +2767,6 @@ P108(x,y) ⊃ P92(x,y)</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E12_Production"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P126_employed"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P126_employed"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P126</skos:notation>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E57_Material"/>
@@ -2888,7 +2789,6 @@ P126(x,y) ⊃ E11(x)
 P126(x,y) ⊃ E57(y)</rdfs:comment>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P96i_gave_birth"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P96i_gave_birth"/>
     <rdfs:label xml:lang="en">P96 gave birth</rdfs:label>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
     <owl:inverseOf>
@@ -2902,7 +2802,6 @@ P126(x,y) ⊃ E57(y)</rdfs:comment>
     </rdfs:subPropertyOf>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P33i_was_used_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P33i_was_used_by"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E29_Design_or_Procedure"/>
     <owl:inverseOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P33_used_specific_technique"/>
@@ -2916,7 +2815,6 @@ P126(x,y) ⊃ E57(y)</rdfs:comment>
     >P33i</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P41_classified"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P41_classified"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property records the item to which a type was assigned in an E17 Type Assignment activity.
 Any instance of a CRM entity may be assigned a type through type assignment. Type assignment events allow a more detailed path from E1 CRM Entity through P41 classified (was classified), E17 Type Assignment, P42 assigned (was assigned by) to E55 Type for assigning types to objects compared to the shortcut offered by P2 has type (is type of).
@@ -2941,7 +2839,6 @@ P41(x,y) ⊃ P140(x,y)</rdfs:comment>
     <rdfs:label xml:lang="en">P41 classified</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P107i_is_current_or_former_member_of"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P107i_is_current_or_former_member_of"/>
     <rdfs:label xml:lang="en">P107 is current or former member of</rdfs:label>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
@@ -2952,7 +2849,6 @@ P41(x,y) ⊃ P140(x,y)</rdfs:comment>
     >P107i</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P123_resulted_in"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P123_resulted_in"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property identifies the E77 Persistent Item or items that are the result of an E81 Transformation.
 
@@ -2979,7 +2875,6 @@ P123(x,y) ⊃ P92(x,y)</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E81_Transformation"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P97_from_father"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P97_from_father"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property links an E67 Birth event to an E21 Person in the role of biological father.
 Note that biological fathers are not seen as necessary participants in the Birth, whereas birth-giving mothers are (see P96 by mother (gave birth)). The Person being born is linked to the Birth with the property P98 brought into life (was born).
@@ -3003,7 +2898,6 @@ P97(x,y) ⊃ E21(y)</rdfs:comment>
     <rdfs:label xml:lang="en">P97 from father</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P30i_custody_transferred_through"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P30i_custody_transferred_through"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P30i</skos:notation>
     <rdfs:label xml:lang="en">P30 custody transferred through</rdfs:label>
@@ -3014,7 +2908,6 @@ P97(x,y) ⊃ E21(y)</rdfs:comment>
     </owl:inverseOf>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P10_falls_within"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P10_falls_within"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P10</skos:notation>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E92_Spacetime_Volume"/>
@@ -3031,7 +2924,6 @@ Examples:
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P73_has_translation"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P73_has_translation"/>
     <rdfs:subPropertyOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P130_shows_features_of"/>
     </rdfs:subPropertyOf>
@@ -3057,7 +2949,6 @@ P73(x,y) ⊃ P130(y,x)</rdfs:comment>
     </owl:inverseOf>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P106i_forms_part_of"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P106i_forms_part_of"/>
     <owl:inverseOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of"/>
     </owl:inverseOf>
@@ -3069,7 +2960,6 @@ P73(x,y) ⊃ P130(y,x)</rdfs:comment>
     <rdfs:label xml:lang="en">P106 forms part of</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P32i_was_technique_of"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P32i_was_technique_of"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <owl:inverseOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P32_used_general_technique"/>
@@ -3083,7 +2973,6 @@ P73(x,y) ⊃ P130(y,x)</rdfs:comment>
     </rdfs:subPropertyOf>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P56_bears_feature"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P56_bears_feature"/>
     <rdfs:subPropertyOf>
       <owl:TransitiveProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of"/>
     </rdfs:subPropertyOf>
@@ -3110,7 +2999,6 @@ P56(x,y) ⊃ P46(x,y)</rdfs:comment>
     >P56</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P138i_has_representation"/>
     <owl:inverseOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P138_represents"/>
     </owl:inverseOf>
@@ -3124,7 +3012,6 @@ P56(x,y) ⊃ P46(x,y)</rdfs:comment>
     <rdfs:label xml:lang="en">P138 has representation</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P52_has_current_owner"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P52_has_current_owner"/>
     <rdfs:subPropertyOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P105_right_held_by"/>
     </rdfs:subPropertyOf>
@@ -3153,7 +3040,6 @@ P52(x,y) ⊃ P105(x,y)</rdfs:comment>
     >P52</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P138_represents"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P138_represents"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property establishes the relationship between an E36 Visual Item and the entity that it visually represents.
 
@@ -3183,7 +3069,6 @@ P138(x,y) ⊃ P67(x,y)</rdfs:comment>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P148i_is_component_of"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P148i_is_component_of"/>
     <owl:inverseOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P148_has_component"/>
     </owl:inverseOf>
@@ -3195,7 +3080,6 @@ P138(x,y) ⊃ P67(x,y)</rdfs:comment>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P43i_is_dimension_of"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P43i_is_dimension_of"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P43i</skos:notation>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
@@ -3206,7 +3090,6 @@ P138(x,y) ⊃ P67(x,y)</rdfs:comment>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E70_Thing"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P53_has_former_or_current_location"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property allows an instance of E53 Place to be associated as the former or current location of an instance of E18 Physical Thing.
 
@@ -3231,7 +3114,6 @@ P53(x,y) ⊃ E53(y)</rdfs:comment>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P70i_is_documented_in"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P70i_is_documented_in"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
     <owl:inverseOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P70_documents"/>
@@ -3245,7 +3127,6 @@ P53(x,y) ⊃ E53(y)</rdfs:comment>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E31_Document"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P78_is_identified_by"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span"/>
     <owl:inverseOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P78i_identifies"/>
@@ -3269,7 +3150,6 @@ P78(x,y) ⊃ P1(x,y)</rdfs:comment>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E49_Time_Appellation"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P145i_left_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P145i_left_by"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P145i</skos:notation>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E86_Leaving"/>
@@ -3283,7 +3163,6 @@ P78(x,y) ⊃ P1(x,y)</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P71i_is_listed_in"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P71i_is_listed_in"/>
     <rdfs:subPropertyOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by"/>
     </rdfs:subPropertyOf>
@@ -3297,7 +3176,6 @@ P78(x,y) ⊃ P1(x,y)</rdfs:comment>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E32_Authority_Document"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P105_right_held_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P105_right_held_by"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property identifies the E39 Actor who holds the instances of E30 Right to an E72 Legal Object.
 It is a superproperty of P52 has current owner (is current owner of) because ownership is a right that is held on the owned object.
@@ -3320,7 +3198,6 @@ P105(x,y) ⊃ E39(y)</rdfs:comment>
     <rdfs:label xml:lang="en">P105 right held by</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P72i_is_language_of"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P72i_is_language_of"/>
     <rdfs:label xml:lang="en">P72 is language of</rdfs:label>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -3331,7 +3208,6 @@ P105(x,y) ⊃ E39(y)</rdfs:comment>
     </owl:inverseOf>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P166_was_a_presence_of"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P166_was_a_presence_of"/>
     <owl:inverseOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P166i_had_presence"/>
     </owl:inverseOf>
@@ -3346,7 +3222,6 @@ P166(x,y) ⊃ E93(x)
 P166(x,y) ⊃ E92(y)</rdfs:comment>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P49_has_former_or_current_keeper"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P49_has_former_or_current_keeper"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P49</skos:notation>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
@@ -3370,7 +3245,6 @@ P49(x,y) ⊃ E39(y)</rdfs:comment>
     </owl:inverseOf>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P100i_died_in"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P100i_died_in"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P100i</skos:notation>
     <rdfs:subPropertyOf>
@@ -3382,7 +3256,6 @@ P49(x,y) ⊃ E39(y)</rdfs:comment>
     <rdfs:label xml:lang="en">P100 died in</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P42_assigned"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P42_assigned"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label xml:lang="en">P42 assigned</rdfs:label>
     <rdfs:comment xml:lang="en">Scope note:
@@ -3409,7 +3282,6 @@ P42(x,y) ⊃ P141(x,y)</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P121_overlaps_with"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P121_overlaps_with"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
     <rdfs:comment xml:lang="en">Scope note:
 This symmetric property allows the instances of E53 Place with overlapping geometric extents to be associated with each other.
@@ -3431,7 +3303,6 @@ P121(x,y) ⊃ P121(y,x)</rdfs:comment>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P140_assigned_attribute_to"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P140_assigned_attribute_to"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment"/>
     <owl:inverseOf>
@@ -3452,7 +3323,6 @@ P140(x,y) ⊃ E1(y)</rdfs:comment>
     <rdfs:label xml:lang="en">P140 assigned attribute to</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P149i_identifies"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P149i_identifies"/>
     <rdfs:subPropertyOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P1i_identifies"/>
     </rdfs:subPropertyOf>
@@ -3466,7 +3336,6 @@ P140(x,y) ⊃ E1(y)</rdfs:comment>
     >P149i</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P167_was_at"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P167_was_at"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Scope Note:      
@@ -3481,7 +3350,6 @@ P167(x,y) ⊃ E53(y)</rdfs:comment>
     </owl:inverseOf>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P34i_was_assessed_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P34i_was_assessed_by"/>
     <rdfs:label xml:lang="en">P34 was assessed by</rdfs:label>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E14_Condition_Assessment"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -3495,7 +3363,6 @@ P167(x,y) ⊃ E53(y)</rdfs:comment>
     </owl:inverseOf>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P29_custody_received_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P29_custody_received_by"/>
     <rdfs:label xml:lang="en">P29 custody received by</rdfs:label>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P29</skos:notation>
@@ -3521,7 +3388,6 @@ P29(x,y) ⊃ P14(x,y)</rdfs:comment>
     </rdfs:subPropertyOf>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P157i_provides_reference_space_for"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P157i_provides_reference_space_for"/>
     <owl:inverseOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P157_is_at_rest_relative_to"/>
     </owl:inverseOf>
@@ -3532,7 +3398,6 @@ P29(x,y) ⊃ P14(x,y)</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P19_was_intended_use_of"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P19_was_intended_use_of"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
     <owl:inverseOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P19i_was_made_for"/>
@@ -3557,7 +3422,6 @@ Properties: P19.1 mode of use: E55 Type</rdfs:comment>
     >P19</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P106_is_composed_of"/>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P106i_forms_part_of"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object"/>
     <rdfs:comment xml:lang="en">Scope note:
@@ -3577,7 +3441,6 @@ P106(x,y) ⊃ E90(y)</rdfs:comment>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P150i_defines_typical_wholes_for"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P150i_defines_typical_wholes_for"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <owl:inverseOf>
@@ -3589,7 +3452,6 @@ P106(x,y) ⊃ E90(y)</rdfs:comment>
     <rdfs:label xml:lang="en">P150 defines typical wholes for</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P76_has_contact_point"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P76_has_contact_point"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P76</skos:notation>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
@@ -3607,7 +3469,6 @@ P76(x,y) ⊃ E39(x)
 P76(x,y) ⊃ E51(y)</rdfs:comment>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P139_has_alternative_form"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P139_has_alternative_form"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property establishes a relationship of equivalence between two instances of E41 Appellation independent from any item identified by them. It is a dynamic asymmetric relationship, where the range expresses the derivative, if such a direction can be established. Otherwise, the relationship is symmetric. The relationship is not transitive.
 
@@ -3634,7 +3495,6 @@ Properties: P139.1 has type: E55 Type</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P22_transferred_title_to"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P22_transferred_title_to"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P22</skos:notation>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition"/>
@@ -3662,7 +3522,6 @@ P22 (x,y) ⊃ P14(x,y)</rdfs:comment>
     </rdfs:subPropertyOf>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P19i_was_made_for"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P19i_was_made_for"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P19i</skos:notation>
     <rdfs:label xml:lang="en">P19 was made for</rdfs:label>
@@ -3671,7 +3530,6 @@ P22 (x,y) ⊃ P14(x,y)</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E71_Man-Made_Thing"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P13i_was_destroyed_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P13i_was_destroyed_by"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E6_Destruction"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P13i</skos:notation>
@@ -3685,7 +3543,6 @@ P22 (x,y) ⊃ P14(x,y)</rdfs:comment>
     </rdfs:subPropertyOf>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P35i_was_identified_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P35i_was_identified_by"/>
     <rdfs:subPropertyOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P141i_was_assigned_by"/>
     </rdfs:subPropertyOf>
@@ -3699,7 +3556,6 @@ P22 (x,y) ⊃ P14(x,y)</rdfs:comment>
     >P35i</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P37_assigned"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P37_assigned"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property records the identifier that was assigned to an item in an Identifier Assignment activity.
 The same identifier may be assigned on more than one occasion.
@@ -3725,7 +3581,6 @@ P37(x,y) ⊃ P141(x,y)</rdfs:comment>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E42_Identifier"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P141i_was_assigned_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P141i_was_assigned_by"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P141i</skos:notation>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
@@ -3736,7 +3591,6 @@ P37(x,y) ⊃ P141(x,y)</rdfs:comment>
     </owl:inverseOf>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P92i_was_brought_into_existence_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P92i_was_brought_into_existence_by"/>
     <rdfs:label xml:lang="en">P92 was brought into existence by</rdfs:label>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P92i</skos:notation>
@@ -3750,7 +3604,6 @@ P37(x,y) ⊃ P141(x,y)</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E77_Persistent_Item"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P86_falls_within"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P86_falls_within"/>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P86i_contains"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span"/>
@@ -3771,7 +3624,6 @@ P86(x,y) ⊃ E52(y)</rdfs:comment>
     <rdfs:label xml:lang="en">P86 falls within</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P131i_identifies"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P131i_identifies"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
     <rdfs:subPropertyOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P1i_identifies"/>
@@ -3785,7 +3637,6 @@ P86(x,y) ⊃ E52(y)</rdfs:comment>
     >P131i</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P108i_was_produced_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P108i_was_produced_by"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Man-Made_Thing"/>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P108_has_produced"/>
     <rdfs:label xml:lang="en">P108 was produced by</rdfs:label>
@@ -3798,7 +3649,6 @@ P86(x,y) ⊃ E52(y)</rdfs:comment>
     >P108i</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P62i_is_depicted_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P62i_is_depicted_by"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
     <owl:inverseOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P62_depicts"/>
@@ -3809,7 +3659,6 @@ P86(x,y) ⊃ E52(y)</rdfs:comment>
     <rdfs:label xml:lang="en">P62 is depicted by</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P151i_participated_in"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P151i_participated_in"/>
     <rdfs:subPropertyOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P11i_participated_in"/>
     </rdfs:subPropertyOf>
@@ -3821,7 +3670,6 @@ P86(x,y) ⊃ E52(y)</rdfs:comment>
     >P151i</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P74i_is_current_or_former_residence_of"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P74i_is_current_or_former_residence_of"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
     <owl:inverseOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P74_has_current_or_former_residence"/>
@@ -3832,7 +3680,6 @@ P86(x,y) ⊃ E52(y)</rdfs:comment>
     <rdfs:label xml:lang="en">P74 is current or former residence of</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P102_has_title"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P102_has_title"/>
     <rdfs:label xml:lang="en">P102 has title</rdfs:label>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E35_Title"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -3862,7 +3709,6 @@ Properties: P102.1 has type: E55 Type</rdfs:comment>
     </rdfs:subPropertyOf>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P130_shows_features_of"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P130_shows_features_of"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E70_Thing"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P130</skos:notation>
@@ -3887,7 +3733,6 @@ Properties: P130.1 kind of similarity: E55 Type</rdfs:comment>
     <rdfs:label xml:lang="en">P130 shows features of</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P109i_is_current_or_former_curator_of"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P109i_is_current_or_former_curator_of"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P109i</skos:notation>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E78_Collection"/>
@@ -3901,7 +3746,6 @@ Properties: P130.1 kind of similarity: E55 Type</rdfs:comment>
     <rdfs:label xml:lang="en">P109 is current or former curator of</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P54_has_current_permanent_location"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P54_has_current_permanent_location"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E19_Physical_Object"/>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P54i_is_current_permanent_location_of"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
@@ -3917,7 +3761,6 @@ Examples:
 - silver cup 232 (E22) has current permanent location Shelf 3.1, Store 2, Museum of Oxford (E53)</rdfs:comment>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P55i_currently_holds"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P55i_currently_holds"/>
     <rdfs:label xml:lang="en">P55 currently holds</rdfs:label>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P55i</skos:notation>
@@ -3931,7 +3774,6 @@ Examples:
     </owl:inverseOf>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P8_took_place_on_or_within"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P8_took_place_on_or_within"/>
     <owl:inverseOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P8i_witnessed"/>
     </owl:inverseOf>
@@ -3955,7 +3797,6 @@ P8(x,y) ⊃ E18(y)</rdfs:comment>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P48i_is_preferred_identifier_of"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P48i_is_preferred_identifier_of"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P48i</skos:notation>
     <rdfs:subPropertyOf>
@@ -3968,7 +3809,6 @@ P8(x,y) ⊃ E18(y)</rdfs:comment>
     </owl:inverseOf>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P27i_was_origin_of"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P27i_was_origin_of"/>
     <rdfs:label xml:lang="en">P27 was origin of</rdfs:label>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E9_Move"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -3983,7 +3823,6 @@ P8(x,y) ⊃ E18(y)</rdfs:comment>
     </owl:inverseOf>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P38_deassigned"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P38_deassigned"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E42_Identifier"/>
     <rdfs:subPropertyOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P141_assigned"/>
@@ -4007,7 +3846,6 @@ P38(x,y) ⊃ E42(y)
 P38(x,y) ⊃ P141(x,y)</rdfs:comment>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P24i_changed_ownership_through"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P24i_changed_ownership_through"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition"/>
     <rdfs:label xml:lang="en">P24 changed ownership through</rdfs:label>
     <owl:inverseOf>
@@ -4018,7 +3856,6 @@ P38(x,y) ⊃ P141(x,y)</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P34_concerned"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P34_concerned"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
     <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P140_assigned_attribute_to"/>
     <rdfs:label xml:lang="en">P34 concerned</rdfs:label>
@@ -4039,7 +3876,6 @@ P34(x,y) ⊃ P140(x,y)</rdfs:comment>
     >P34</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P94_has_created"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P94_has_created"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property allows a conceptual E65 Creation to be linked to the E28 Conceptual Object created by it.
 
@@ -4065,7 +3901,6 @@ P94(x,y) ⊃ P92(x,y)</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E65_Creation"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P67i_is_referred_to_by"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P67i</skos:notation>
     <rdfs:label xml:lang="en">P67 is referred to by</rdfs:label>
@@ -4076,7 +3911,6 @@ P94(x,y) ⊃ P92(x,y)</rdfs:comment>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P96_by_mother"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P96_by_mother"/>
     <rdfs:label xml:lang="en">P96 by mother</rdfs:label>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E67_Birth"/>
@@ -4099,7 +3933,6 @@ P96(x,y) ⊃ P11(x,y)</rdfs:comment>
     >P96</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P29i_received_custody_through"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P29i_received_custody_through"/>
     <rdfs:label xml:lang="en">P29 received custody through</rdfs:label>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P29i</skos:notation>
@@ -4110,7 +3943,6 @@ P96(x,y) ⊃ P11(x,y)</rdfs:comment>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E10_Transfer_of_Custody"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P20i_was_purpose_of"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P20i_was_purpose_of"/>
     <rdfs:label xml:lang="en">P20 was purpose of</rdfs:label>
     <owl:inverseOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P20_had_specific_purpose"/>
@@ -4121,7 +3953,6 @@ P96(x,y) ⊃ P11(x,y)</rdfs:comment>
     >P20i</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P89_falls_within"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P89_falls_within"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P89</skos:notation>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
@@ -4144,7 +3975,6 @@ P89(x,y) ⊃ E53(y)</rdfs:comment>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P149_is_identified_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P149_is_identified_by"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object"/>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P149i_identifies"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -4166,7 +3996,6 @@ P149(x,y) ⊃ P1(x,y)</rdfs:comment>
     <rdfs:label xml:lang="en">P149 is identified by</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P26_moved_to"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P26_moved_to"/>
     <owl:inverseOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P26i_was_destination_of"/>
     </owl:inverseOf>
@@ -4190,7 +4019,6 @@ P26(x,y) ⊃ E53(y)
 P26(x,y) ⊃ (z)[ E53(z) ∧ P7(x,z) ∧ P89(y,z)]</rdfs:comment>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P122_borders_with"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P122_borders_with"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -4212,7 +4040,6 @@ P122(x,y) ⊃ E53(y)
 P122(x,y) ⊃ P122(y,x)</rdfs:comment>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P128i_is_carried_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P128i_is_carried_by"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Man-Made_Thing"/>
     <rdfs:label xml:lang="en">P128 is carried by</rdfs:label>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -4226,7 +4053,6 @@ P122(x,y) ⊃ P122(y,x)</rdfs:comment>
     </owl:inverseOf>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P44i_is_condition_of"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P44i_is_condition_of"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
     <rdfs:label xml:lang="en">P44 is condition of</rdfs:label>
     <owl:inverseOf>
@@ -4237,7 +4063,6 @@ P122(x,y) ⊃ P122(y,x)</rdfs:comment>
     >P44i</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P148_has_component"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P148_has_component"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P148</skos:notation>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object"/>
@@ -4256,7 +4081,6 @@ P148(x,y) ⊃ E89(y)</rdfs:comment>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P15i_influenced"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P15i_influenced"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P15i</skos:notation>
@@ -4267,7 +4091,6 @@ P148(x,y) ⊃ E89(y)</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P84i_was_maximum_duration_of"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P84i_was_maximum_duration_of"/>
     <rdfs:label xml:lang="en">P84 was maximum duration of</rdfs:label>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
     <owl:inverseOf>
@@ -4278,7 +4101,6 @@ P148(x,y) ⊃ E89(y)</rdfs:comment>
     >P84i</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P146i_lost_member_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P146i_lost_member_by"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
     <owl:inverseOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P146_separated_from"/>
@@ -4292,7 +4114,6 @@ P148(x,y) ⊃ E89(y)</rdfs:comment>
     <rdfs:label xml:lang="en">P146 lost member by</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P78i_identifies"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P78i_identifies"/>
     <rdfs:subPropertyOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P1i_identifies"/>
     </rdfs:subPropertyOf>
@@ -4304,7 +4125,6 @@ P148(x,y) ⊃ E89(y)</rdfs:comment>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P62_depicts"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P62_depicts"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Man-Made_Thing"/>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P62i_is_depicted_by"/>
     <rdfs:comment xml:lang="en">Scope note:
@@ -4328,7 +4148,6 @@ Properties: P62.1 mode of depiction: E55 Type</rdfs:comment>
     >P62</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P127i_has_narrower_term"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P127i_has_narrower_term"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
     <rdfs:label xml:lang="en">P127 has narrower term</rdfs:label>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
@@ -4340,7 +4159,6 @@ Properties: P62.1 mode of depiction: E55 Type</rdfs:comment>
     </owl:inverseOf>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P145_separated"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P145_separated"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P145</skos:notation>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E86_Leaving"/>
@@ -4363,7 +4181,6 @@ P145(x,y) ⊃ E39(y)
 P145(x,y) ⊃ P11(x,y)</rdfs:comment>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P99_dissolved"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P99_dissolved"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E68_Dissolution"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P99</skos:notation>
@@ -4391,7 +4208,6 @@ P99(x,y) ⊃ P93(x,y)</rdfs:comment>
     </owl:inverseOf>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P15_was_influenced_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P15_was_influenced_by"/>
     <rdfs:label xml:lang="en">P15 was influenced by</rdfs:label>
     <rdfs:comment xml:lang="en">Scope note:
 This is a high level property, which captures the relationship between an E7 Activity and anything that may have had some bearing upon it.
@@ -4411,7 +4227,6 @@ P15 (x,y) ⊃ E1(y)</rdfs:comment>
     >P15</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P137_exemplifies"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P137_exemplifies"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label xml:lang="en">P137 exemplifies</rdfs:label>
     <rdfs:comment xml:lang="en">Scope note:
@@ -4439,7 +4254,6 @@ Properties: P137.1 in the taxonomic role: E55 Type</rdfs:comment>
     >P137</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P27_moved_from"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P27_moved_from"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property identifies a starting E53 Place of an E9 Move.
 
@@ -4462,7 +4276,6 @@ P27(x,y) ⊃ (z)[ E53(z) ∧ P7(x,z) ∧ P89(y,z)]</rdfs:comment>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P104i_applies_to"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P104i_applies_to"/>
     <owl:inverseOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to"/>
     </owl:inverseOf>
@@ -4473,7 +4286,6 @@ P27(x,y) ⊃ (z)[ E53(z) ∧ P7(x,z) ∧ P89(y,z)]</rdfs:comment>
     >P104i</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P120i_occurs_after"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P120i_occurs_after"/>
     <owl:inverseOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P120_occurs_before"/>
     </owl:inverseOf>
@@ -4485,7 +4297,6 @@ P27(x,y) ⊃ (z)[ E53(z) ∧ P7(x,z) ∧ P89(y,z)]</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E2_Temporal_Entity"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P94i_was_created_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P94i_was_created_by"/>
     <rdfs:label xml:lang="en">P94 was created by</rdfs:label>
     <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P92i_was_brought_into_existence_by"/>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P94_has_created"/>
@@ -4495,7 +4306,6 @@ P27(x,y) ⊃ (z)[ E53(z) ∧ P7(x,z) ∧ P89(y,z)]</rdfs:comment>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E65_Creation"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P28_custody_surrendered_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P28_custody_surrendered_by"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property identifies the E39 Actor or Actors who surrender custody of an instance of E18 Physical Thing in an E10 Transfer of Custody activity.
 
@@ -4521,7 +4331,6 @@ P28(x,y) ⊃ P14(x,y)</rdfs:comment>
     >P28</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P55_has_current_location"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P55_has_current_location"/>
     <rdfs:label xml:lang="en">P55 has current location</rdfs:label>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P55i_currently_holds"/>
@@ -4544,7 +4353,6 @@ P55(x,y) ⊃ P53(x,y)</rdfs:comment>
     >P55</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P65_shows_visual_item"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P65_shows_visual_item"/>
     <rdfs:subPropertyOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P128_carries"/>
     </rdfs:subPropertyOf>
@@ -4574,7 +4382,6 @@ P65(x,y) ⊃ P128(x,y)</rdfs:comment>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P147_curated"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P147_curated"/>
     <rdfs:label xml:lang="en">P147 curated</rdfs:label>
     <rdfs:comment xml:lang="en">Scope note:
 This property associates an instance of E87 Curation Activity with the instance of E78 Collection or collections with that is subject of athat curation activity following some implicit or explicit curation plan. 
@@ -4596,7 +4403,6 @@ P147(x,y) ⊃ E78(y)</rdfs:comment>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E78_Collection"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P87_is_identified_by"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property identifies an E53 Place using an E44 Place Appellation.
 
@@ -4617,7 +4423,6 @@ Examples:
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E44_Place_Appellation"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P25_moved"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P25_moved"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E19_Physical_Object"/>
     <rdfs:subPropertyOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P12_occurred_in_the_presence_of"/>
@@ -4644,7 +4449,6 @@ P25(x,y) ⊃ P12(x,y)</rdfs:comment>
     >P25</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P70_documents"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P70_documents"/>
     <rdfs:subPropertyOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P67_refers_to"/>
     </rdfs:subPropertyOf>
@@ -4663,7 +4467,6 @@ Examples:
     <rdfs:label xml:lang="en">P70 documents</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P118_overlaps_in_time_with"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P118_overlaps_in_time_with"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E2_Temporal_Entity"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property identifies an overlap between the instances of E52 Time-Span of two instances of E2 Temporal Entity.
@@ -4687,7 +4490,6 @@ P118(x,y) ⊃ E2(y)</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E2_Temporal_Entity"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P117i_includes"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P117i_includes"/>
     <owl:inverseOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P117_occurs_during"/>
     </owl:inverseOf>
@@ -4699,7 +4501,6 @@ P118(x,y) ⊃ E2(y)</rdfs:comment>
     >P117i</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P72_has_language"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P72_has_language"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property describes the E56 Language of an E33 Linguistic Object.
 
@@ -4719,7 +4520,6 @@ P72(x,y) ⊃ E56(y)</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P83_had_at_least_duration"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P83_had_at_least_duration"/>
     <rdfs:label xml:lang="en">P83 had at least duration</rdfs:label>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -4741,7 +4541,6 @@ P83(x,y) ⊃ E54(y)</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P37i_was_assigned_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P37i_was_assigned_by"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E42_Identifier"/>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P37_assigned"/>
     <rdfs:label xml:lang="en">P37 was assigned by</rdfs:label>
@@ -4751,7 +4550,6 @@ P83(x,y) ⊃ E54(y)</rdfs:comment>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E15_Identifier_Assignment"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P93_took_out_of_existence"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P93_took_out_of_existence"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E77_Persistent_Item"/>
     <rdfs:label xml:lang="en">P93 took out of existence</rdfs:label>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -4777,7 +4575,6 @@ P93(x,y) ⊃ P12(x,y)</rdfs:comment>
     </rdfs:subPropertyOf>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P51_has_former_or_current_owner"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P51_has_former_or_current_owner"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property identifies the E39 Actor that is or has been the legal owner (i.e. title holder) of an instance of E18 Physical Thing at some time.
 
@@ -4799,7 +4596,6 @@ P51(x,y) ⊃ E39(y)</rdfs:comment>
     </owl:inverseOf>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P50i_is_current_keeper_of"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P50i_is_current_keeper_of"/>
     <owl:inverseOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P50_has_current_keeper"/>
     </owl:inverseOf>
@@ -4812,7 +4608,6 @@ P51(x,y) ⊃ E39(y)</rdfs:comment>
     <rdfs:label xml:lang="en">P50 is current keeper of</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P20_had_specific_purpose"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P20_had_specific_purpose"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E5_Event"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P20</skos:notation>
@@ -4834,7 +4629,6 @@ P21(x,y) ⊃ E7(x)
 P21(x,y) ⊃ E55(y)</rdfs:comment>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P97i_was_father_for"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P97i_was_father_for"/>
     <rdfs:label xml:lang="en">P97 was father for</rdfs:label>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P97i</skos:notation>
@@ -4843,7 +4637,6 @@ P21(x,y) ⊃ E55(y)</rdfs:comment>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P97_from_father"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P83i_was_minimum_duration_of"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P83i_was_minimum_duration_of"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span"/>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P83_had_at_least_duration"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
@@ -4852,7 +4645,6 @@ P21(x,y) ⊃ E55(y)</rdfs:comment>
     <rdfs:label xml:lang="en">P83 was minimum duration of</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P12_occurred_in_the_presence_of"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P12_occurred_in_the_presence_of"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property describes the active or passive presence of an E77 Persistent Item in an E5 Event without implying any specific role.
 
@@ -4874,7 +4666,6 @@ P12(x,y) ⊃ E77(y)</rdfs:comment>
     >P12</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P124i_was_transformed_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P124i_was_transformed_by"/>
     <rdfs:label xml:lang="en">P124 was transformed by</rdfs:label>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E81_Transformation"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -4888,7 +4679,6 @@ P12(x,y) ⊃ E77(y)</rdfs:comment>
     </rdfs:subPropertyOf>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P17i_motivated"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P17i_motivated"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
     <rdfs:label xml:lang="en">P17 motivated</rdfs:label>
     <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P15i_influenced"/>
@@ -4900,7 +4690,6 @@ P12(x,y) ⊃ E77(y)</rdfs:comment>
     >P17i</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P144_joined_with"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P144_joined_with"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P144</skos:notation>
@@ -4934,7 +4723,6 @@ Properties: P144.1 kind of member: E55 Type</rdfs:comment>
     </rdfs:subPropertyOf>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P111i_was_added_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P111i_was_added_by"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P111i</skos:notation>
@@ -4948,7 +4736,6 @@ Properties: P144.1 kind of member: E55 Type</rdfs:comment>
     </rdfs:subPropertyOf>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P4i_is_time-span_of"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P4i_is_time-span_of"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E2_Temporal_Entity"/>
     <rdfs:label xml:lang="en">P4 is time-span of</rdfs:label>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -4959,7 +4746,6 @@ Properties: P144.1 kind of member: E55 Type</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P51i_is_former_or_current_owner_of"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P51i_is_former_or_current_owner_of"/>
     <rdfs:label xml:lang="en">P51 is former or current owner of</rdfs:label>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -4968,7 +4754,6 @@ Properties: P144.1 kind of member: E55 Type</rdfs:comment>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P51_has_former_or_current_owner"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P117_occurs_during"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P117_occurs_during"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E2_Temporal_Entity"/>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P117i_includes"/>
     <rdfs:label xml:lang="en">P117 occurs during</rdfs:label>
@@ -4989,7 +4774,6 @@ P117(x,y) ⊃ E2(y)</rdfs:comment>
     >P117</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P109_has_current_or_former_curator"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P109_has_current_or_former_curator"/>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P109i_is_current_or_former_curator_of"/>
     <rdfs:label xml:lang="en">P109 has current or former curator</rdfs:label>
     <rdfs:comment xml:lang="en">Scope note:
@@ -5012,7 +4796,6 @@ P109(x,y) ⊃ P49(x,y)</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E78_Collection"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P49i_is_former_or_current_keeper_of"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P49i_is_former_or_current_keeper_of"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
     <rdfs:label xml:lang="en">P49 is former or current keeper of</rdfs:label>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P49_has_former_or_current_keeper"/>
@@ -5021,7 +4804,6 @@ P109(x,y) ⊃ P49(x,y)</rdfs:comment>
     >P49i</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P26i_was_destination_of"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P26i_was_destination_of"/>
     <rdfs:label xml:lang="en">P26 was destination of</rdfs:label>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E9_Move"/>
     <rdfs:subPropertyOf>
@@ -5033,7 +4815,6 @@ P109(x,y) ⊃ P49(x,y)</rdfs:comment>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P26_moved_to"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P44_has_condition"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P44_has_condition"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P44</skos:notation>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
@@ -5055,13 +4836,11 @@ P44(x,y) ⊃ E3(y)</rdfs:comment>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P167i_was_place_of"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P167i_was_place_of"/>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P167_was_at"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E93_Presence"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P75i_is_possessed_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P75i_is_possessed_by"/>
     <rdfs:label xml:lang="en">P75 is possessed by</rdfs:label>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E30_Right"/>
     <owl:inverseOf>
@@ -5072,7 +4851,6 @@ P44(x,y) ⊃ E3(y)</rdfs:comment>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P130i_features_are_also_found_on"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P130i_features_are_also_found_on"/>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P130_shows_features_of"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E70_Thing"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E70_Thing"/>
@@ -5081,7 +4859,6 @@ P44(x,y) ⊃ E3(y)</rdfs:comment>
     >P130i</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P22i_acquired_title_through"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P22i_acquired_title_through"/>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P22_transferred_title_to"/>
     <rdfs:subPropertyOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P14i_performed"/>
@@ -5093,7 +4870,6 @@ P44(x,y) ⊃ E3(y)</rdfs:comment>
     >P22i</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P103_was_intended_for"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P103_was_intended_for"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P103</skos:notation>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
@@ -5115,7 +4891,6 @@ P103(x,y) ⊃ E55(y)</rdfs:comment>
     <rdfs:label xml:lang="en">P103 was intended for</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P118i_is_overlapped_in_time_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P118i_is_overlapped_in_time_by"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E2_Temporal_Entity"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P118i</skos:notation>
@@ -5124,7 +4899,6 @@ P103(x,y) ⊃ E55(y)</rdfs:comment>
     <rdfs:label xml:lang="en">P118 is overlapped in time by</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P1i_identifies"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P1i_identifies"/>
     <owl:inverseOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by"/>
     </owl:inverseOf>
@@ -5135,7 +4909,6 @@ P103(x,y) ⊃ E55(y)</rdfs:comment>
     <rdfs:label xml:lang="en">P1 identifies</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P115_finishes"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P115_finishes"/>
     <rdfs:label xml:lang="en">P115 finishes</rdfs:label>
     <owl:inverseOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P115i_is_finished_by"/>
@@ -5158,7 +4931,6 @@ P115(x,y) ⊃ E2(y)</rdfs:comment>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P162_is_restricted_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P162_is_restricted_by"/>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Scope note:
 This property relates an E93 Spacetime Snapshot with an arbitrary E92Spacetime Volume that restricts the extent of the former to a volume equal to or within the latter. 
@@ -5171,7 +4943,6 @@ Examples:</rdfs:comment>
     >P162</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P131_is_identified_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P131_is_identified_by"/>
     <rdfs:label xml:lang="en">P131 is identified by</rdfs:label>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P131</skos:notation>
@@ -5195,13 +4966,11 @@ P131(x,y) ⊃ E82(y)
 P131(x,y) ⊃ P1(x,y)</rdfs:comment>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P166i_had_presence"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P166i_had_presence"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E93_Presence"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E92_Spacetime_Volume"/>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P166_was_a_presence_of"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P93i_was_taken_out_of_existence_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P93i_was_taken_out_of_existence_by"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E77_Persistent_Item"/>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P93_took_out_of_existence"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E64_End_of_Existence"/>
@@ -5213,7 +4982,6 @@ P131(x,y) ⊃ P1(x,y)</rdfs:comment>
     >P93i</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P126i_was_employed_in"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P126i_was_employed_in"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P126i</skos:notation>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E11_Modification"/>
@@ -5222,7 +4990,6 @@ P131(x,y) ⊃ P1(x,y)</rdfs:comment>
     <rdfs:label xml:lang="en">P126 was employed in</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P116_starts"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P116_starts"/>
     <owl:inverseOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P116i_is_started_by"/>
     </owl:inverseOf>
@@ -5245,7 +5012,6 @@ P116(x,y) ⊃ E2(y)</rdfs:comment>
     <rdfs:label xml:lang="en">P116 starts</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P14i_performed"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P14i_performed"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
     <rdfs:subPropertyOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P11i_participated_in"/>
@@ -5258,7 +5024,6 @@ P116(x,y) ⊃ E2(y)</rdfs:comment>
     <rdfs:label xml:lang="en">P14 performed</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P11_had_participant"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P11_had_participant"/>
     <owl:inverseOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P11i_participated_in"/>
     </owl:inverseOf>
@@ -5283,7 +5048,6 @@ P11(x,y) ⊃ P12(x,y)</rdfs:comment>
     <rdfs:label xml:lang="en">P11 had participant</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P135i_was_created_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P135i_was_created_by"/>
     <rdfs:label xml:lang="en">P135 was created by</rdfs:label>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P135i</skos:notation>
@@ -5295,7 +5059,6 @@ P11(x,y) ⊃ P12(x,y)</rdfs:comment>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E83_Type_Creation"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P23i_surrendered_title_through"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P23i_surrendered_title_through"/>
     <owl:inverseOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P23_transferred_title_from"/>
     </owl:inverseOf>
@@ -5306,7 +5069,6 @@ P11(x,y) ⊃ P12(x,y)</rdfs:comment>
     >P23i</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P129i_is_subject_of"/>
     <owl:inverseOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P129_is_about"/>
     </owl:inverseOf>
@@ -5318,7 +5080,6 @@ P11(x,y) ⊃ P12(x,y)</rdfs:comment>
     >P129i</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P43_has_dimension"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property records a E54 Dimension of some E70 Thing.
 It is a shortcut of the more fully developed path from E70 Thing through P39 measured (was measured by), E16 Measurement P40 observed dimension (was observed in) to E54 Dimension. It offers no information about how and when an E54 Dimension was established, nor by whom.
@@ -5339,7 +5100,6 @@ P43(x,y) ⊃ E54(y)</rdfs:comment>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P125i_was_type_of_object_used_in"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P125i_was_type_of_object_used_in"/>
     <rdfs:label xml:lang="en">P125 was type of object used in</rdfs:label>
     <owl:inverseOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P125_used_object_of_type"/>
@@ -5350,7 +5110,6 @@ P43(x,y) ⊃ E54(y)</rdfs:comment>
     >P125i</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P102i_is_title_of"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P102i_is_title_of"/>
     <rdfs:label xml:lang="en">P102 is title of</rdfs:label>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E71_Man-Made_Thing"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -5360,7 +5119,6 @@ P43(x,y) ⊃ E54(y)</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E35_Title"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P25i_moved_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P25i_moved_by"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P25i</skos:notation>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P25_moved"/>
@@ -5372,7 +5130,6 @@ P43(x,y) ⊃ E54(y)</rdfs:comment>
     <rdfs:label xml:lang="en">P25 moved by</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P98_brought_into_life"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P98_brought_into_life"/>
     <rdfs:subPropertyOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P92_brought_into_existence"/>
     </rdfs:subPropertyOf>
@@ -5398,7 +5155,6 @@ P98(x,y) ⊃ P92(x,y)</rdfs:comment>
     <rdfs:label xml:lang="en">P98 brought into life</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P40i_was_observed_in"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P40i_was_observed_in"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P40i</skos:notation>
     <owl:inverseOf>
@@ -5410,7 +5166,6 @@ P98(x,y) ⊃ P92(x,y)</rdfs:comment>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E16_Measurement"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P56i_is_found_on"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P56i_is_found_on"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E26_Physical_Feature"/>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P56_bears_feature"/>
     <rdfs:subPropertyOf>
@@ -5422,7 +5177,6 @@ P98(x,y) ⊃ P92(x,y)</rdfs:comment>
     >P56i</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P159_occupied"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P159_occupied"/>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Scope note:
 This property describes the real that is (phenomenal), 4 dimensional point sets or volumes in spacetime that the trajectory of an instance of E18 Physical Thing occupies in the course of its existence. We include in the occupied space the space filled by the matter of the physical thing and all its inner spaces. Physical things consisting of aggregations of physically unconnected objects, such as a set of chessmen, occupy a number of individually contiguous spacetime volumes equal to the number of unconnected objects that constitute them.</rdfs:comment>
@@ -5433,7 +5187,6 @@ This property describes the real that is (phenomenal), 4 dimensional point sets 
     <rdfs:label xml:lang="en">P159 occupied</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P67_refers_to"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P67_refers_to"/>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property documents that an E89 Propositional Object makes a statement about an instance of E1 CRM Entity. P67 refers to (is referred to by) has the P67.1 has type link to an instance of E55 Type. This is intended to allow a more detailed description of the type of reference. This differs from P129 is about (is subject of), which describes the primary subject or subjects of the E89 Propositional Object.
@@ -5454,7 +5207,6 @@ Properties: P67.1 has type: E55 Type</rdfs:comment>
     >P67</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P104_is_subject_to"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property links a particular E72 Legal Object to the instances of E30 Right to which it is subject.
 
@@ -5474,7 +5226,6 @@ P104(x,y) ⊃ E30(y)</rdfs:comment>
     <rdfs:label xml:lang="en">P104 is subject to</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P50_has_current_keeper"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P50_has_current_keeper"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P50</skos:notation>
     <rdfs:label xml:lang="en">P50 has current keeper</rdfs:label>
@@ -5495,7 +5246,6 @@ P50(x,y) ⊃ P49(x,y)</rdfs:comment>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P50i_is_current_keeper_of"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P11i_participated_in"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P11i_participated_in"/>
     <rdfs:subPropertyOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P12i_was_present_at"/>
     </rdfs:subPropertyOf>
@@ -5507,7 +5257,6 @@ P50(x,y) ⊃ P49(x,y)</rdfs:comment>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E5_Event"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P8i_witnessed"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P8i_witnessed"/>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P8_took_place_on_or_within"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P8i</skos:notation>
@@ -5516,7 +5265,6 @@ P50(x,y) ⊃ P49(x,y)</rdfs:comment>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E4_Period"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P87i_identifies"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P87i_identifies"/>
     <rdfs:label xml:lang="en">P87 identifies</rdfs:label>
     <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P1i_identifies"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
@@ -5526,7 +5274,6 @@ P50(x,y) ⊃ P49(x,y)</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E44_Place_Appellation"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P28i_surrendered_custody_through"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P28i_surrendered_custody_through"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P28i</skos:notation>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E10_Transfer_of_Custody"/>
@@ -5535,7 +5282,6 @@ P50(x,y) ⊃ P49(x,y)</rdfs:comment>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P28_custody_surrendered_by"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P115i_is_finished_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P115i_is_finished_by"/>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P115_finishes"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P115i</skos:notation>
@@ -5545,7 +5291,6 @@ P50(x,y) ⊃ P49(x,y)</rdfs:comment>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P144i_gained_member_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P144i_gained_member_by"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P144i</skos:notation>
@@ -5555,7 +5300,6 @@ P50(x,y) ⊃ P49(x,y)</rdfs:comment>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P144_joined_with"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P7i_witnessed"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P7i_witnessed"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E4_Period"/>
     <rdfs:label xml:lang="en">P7 witnessed</rdfs:label>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -5566,7 +5310,6 @@ P50(x,y) ⊃ P49(x,y)</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P142_used_constituent"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P142_used_constituent"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E15_Identifier_Assignment"/>
     <owl:inverseOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P142i_was_used_in"/>
@@ -5594,7 +5337,6 @@ P142(x,y) ⊃ P16(x,y)</rdfs:comment>
     >P142</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P16_used_specific_object"/>
     <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P12_occurred_in_the_presence_of"/>
     <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P15_was_influenced_by"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E70_Thing"/>
@@ -5626,7 +5368,6 @@ P16(x,y,z) ⊃ [P16(x,y) ∧ E55(z)]</rdfs:comment>
     >P16</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P59i_is_located_on_or_within"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P59i_is_located_on_or_within"/>
     <rdfs:subPropertyOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P157_is_at_rest_relative_to"/>
     </rdfs:subPropertyOf>
@@ -5640,7 +5381,6 @@ P16(x,y,z) ⊃ [P16(x,y) ∧ E55(z)]</rdfs:comment>
     <rdfs:label xml:lang="en">P59 is located on or within</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P111_added"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P111_added"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P111</skos:notation>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E79_Part_Addition"/>
@@ -5664,7 +5404,6 @@ P111(x,y) ⊃ P16(x,y)</rdfs:comment>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P165_incorporates"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P165_incorporates"/>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Scope note: 
 This property associates an instance of E73 Information Object with an instance of E90 Symbolic Object (or any of its subclasses) that was included in it. 
@@ -5689,7 +5428,6 @@ Examples:
     <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P74_has_current_or_former_residence"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P74_has_current_or_former_residence"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P74</skos:notation>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
@@ -5709,7 +5447,6 @@ P74(x,y) ⊃ E53(y)</rdfs:comment>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P74i_is_current_or_former_residence_of"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P127_has_broader_term"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P127_has_broader_term"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P127</skos:notation>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
@@ -5730,7 +5467,6 @@ P127(x,y) ⊃ E55(y)</rdfs:comment>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P16i_was_used_for"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P16i_was_used_for"/>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E70_Thing"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -5743,7 +5479,6 @@ P127(x,y) ⊃ E55(y)</rdfs:comment>
     <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P15i_influenced"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P110i_was_augmented_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P110i_was_augmented_by"/>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P110_augmented"/>
     <rdfs:label xml:lang="en">P110 was augmented by</rdfs:label>
     <rdfs:subPropertyOf>
@@ -5755,7 +5490,6 @@ P127(x,y) ⊃ E55(y)</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Man-Made_Thing"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P156_occupies"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P156_occupies"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P156</skos:notation>
@@ -5779,7 +5513,6 @@ In First Order Logic:
 P156 (x,y) = [E18(x) ∧ E53(y) ∧ P161(x,y) ∧ P157(y,x)]</rdfs:comment>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P101_had_as_general_use"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P101_had_as_general_use"/>
     <rdfs:label xml:lang="en">P101 had as general use</rdfs:label>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -5801,7 +5534,6 @@ P102(x,y,z) ⊃ [P102(x,y) ∧ E55(z)]
 P102(x,y) ⊃ P1(x,y)</rdfs:comment>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P58i_defines_section"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P58i_defines_section"/>
     <owl:inverseOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P58_has_section_definition"/>
     </owl:inverseOf>
@@ -5812,7 +5544,6 @@ P102(x,y) ⊃ P1(x,y)</rdfs:comment>
     <rdfs:label xml:lang="en">P58 defines section</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P39_measured"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P39_measured"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
     <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P140_assigned_attribute_to"/>
     <rdfs:comment xml:lang="en">Scope note:
@@ -5834,7 +5565,6 @@ P39(x,y) ⊃ P140(x,y)</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E16_Measurement"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P123i_resulted_from"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P123i_resulted_from"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P123i</skos:notation>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P123_resulted_in"/>
@@ -5844,7 +5574,6 @@ P39(x,y) ⊃ P140(x,y)</rdfs:comment>
     <rdfs:label xml:lang="en">P123 resulted from</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P35_has_identified"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P35_has_identified"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property identifies the E3 Condition State that was observed in an E14 Condition Assessment activity.
 
@@ -5866,7 +5595,6 @@ P35(x,y) ⊃ P141(x,y)</rdfs:comment>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P35i_was_identified_by"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P4_has_time-span"/>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P4i_is_time-span_of"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E2_Temporal_Entity"/>
     <rdfs:comment xml:lang="en">Scope note:
@@ -5886,7 +5614,6 @@ P4(x,y) ⊃ E52(y)</rdfs:comment>
     >P4</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P98i_was_born"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P98i_was_born"/>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P98_brought_into_life"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P98i</skos:notation>
@@ -5896,7 +5623,6 @@ P4(x,y) ⊃ E52(y)</rdfs:comment>
     <rdfs:label xml:lang="en">P98 was born</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P40_observed_dimension"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P40_observed_dimension"/>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P40i_was_observed_in"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E16_Measurement"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -5916,7 +5642,6 @@ Examples:
 - 31 August 1997 measurement of height of silver cup 232 (E16) observed dimension silver cup 232 height (E54) has unit mm (E58), has value 224 (E60)</rdfs:comment>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P133_is_separated_from"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P133_is_separated_from"/>
     <rdfs:comment xml:lang="en">Scope note:
 This symmetric property allows instances of E4 Period that do not overlap both temporally and spatially, to be related i,e. they do not share any spatio-temporal extent.
 
@@ -5938,7 +5663,6 @@ P133(x,y) ⊃ P133(y,x)</rdfs:comment>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P133_is_separated_from"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P119_meets_in_time_with"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P119_meets_in_time_with"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P119</skos:notation>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E2_Temporal_Entity"/>
@@ -5958,7 +5682,6 @@ Examples:
     <rdfs:label xml:lang="en">P119 meets in time with</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P13_destroyed"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P13_destroyed"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
     <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P93_took_out_of_existence"/>
     <rdfs:comment xml:lang="en">Scope note:
@@ -5979,7 +5702,6 @@ P13 (x,y) ⊃ P93(x,y)</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E6_Destruction"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P7_took_place_at"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P7</skos:notation>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P7i_witnessed"/>
@@ -6001,7 +5723,6 @@ P7(x,y) ⊃ E53(y)</rdfs:comment>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P1_is_identified_by"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property describes the naming or identification of any real world item by a name or any other identifier.
 
@@ -6022,7 +5743,6 @@ P1(x,y) ⊃ E41(y)</rdfs:comment>
     >P1</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P112i_was_diminished_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P112i_was_diminished_by"/>
     <owl:inverseOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P112_diminished"/>
     </owl:inverseOf>
@@ -6036,7 +5756,6 @@ P1(x,y) ⊃ E41(y)</rdfs:comment>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E80_Part_Removal"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P132_overlaps_with"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P132_overlaps_with"/>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P132_overlaps_with"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E92_Spacetime_Volume"/>
     <rdfs:comment xml:lang="en">Scope note:
@@ -6058,7 +5777,6 @@ P132(x,y) ⊃ P132(y,x)</rdfs:comment>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P84_had_at_most_duration"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P84_had_at_most_duration"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P84</skos:notation>
@@ -6078,7 +5796,6 @@ P84(x,y) ⊃ E54(y)</rdfs:comment>
     <rdfs:label xml:lang="en">P84 had at most duration</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P24_transferred_title_of"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P24_transferred_title_of"/>
     <rdfs:label xml:lang="en">P24 transferred title of</rdfs:label>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
     <rdfs:comment xml:lang="en">Scope note:
@@ -6098,7 +5815,6 @@ P24(x,y) ⊃ E18(y)</rdfs:comment>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P24i_changed_ownership_through"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P14_carried_out_by"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P14i_performed"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -6120,7 +5836,6 @@ P14(x,y,z) ⊃ [P14(x,y) ∧ E55(z)]</rdfs:comment>
     <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P11_had_participant"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P89i_contains"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P89i_contains"/>
     <rdfs:label xml:lang="en">P89 contains</rdfs:label>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -6130,7 +5845,6 @@ P14(x,y,z) ⊃ [P14(x,y) ∧ E55(z)]</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P91i_is_unit_of"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P91i_is_unit_of"/>
     <rdfs:label xml:lang="en">P91 is unit of</rdfs:label>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
     <owl:inverseOf>
@@ -6141,7 +5855,6 @@ P14(x,y,z) ⊃ [P14(x,y) ∧ E55(z)]</rdfs:comment>
     >P91i</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P135_created_type"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P135_created_type"/>
     <rdfs:label xml:lang="en">P135 created type</rdfs:label>
     <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P94_has_created"/>
     <rdfs:comment xml:lang="en">Scope note:
@@ -6161,7 +5874,6 @@ P135(x,y) ⊃ P94(x,y)</rdfs:comment>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P53i_is_former_or_current_location_of"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P53i_is_former_or_current_location_of"/>
     <rdfs:label xml:lang="en">P53 is former or current location of</rdfs:label>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P53i</skos:notation>
@@ -6170,7 +5882,6 @@ P135(x,y) ⊃ P94(x,y)</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P68_foresees_use_of"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P68_foresees_use_of"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P68</skos:notation>
     <rdfs:label xml:lang="en">P68 foresees use of</rdfs:label>
@@ -6196,7 +5907,6 @@ P68(x,y) ⊃ P67(x,y)</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E29_Design_or_Procedure"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P65i_is_shown_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P65i_is_shown_by"/>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P65_shows_visual_item"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -6206,7 +5916,6 @@ P68(x,y) ⊃ P67(x,y)</rdfs:comment>
     <rdfs:label xml:lang="en">P65 is shown by</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P42i_was_assigned_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P42i_was_assigned_by"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
     <rdfs:label xml:lang="en">P42 was assigned by</rdfs:label>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P42_assigned"/>
@@ -6216,7 +5925,6 @@ P68(x,y) ⊃ P67(x,y)</rdfs:comment>
     <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P141i_was_assigned_by"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P17_was_motivated_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P17_was_motivated_by"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property describes an item or items that are regarded as a reason for carrying out the E7 Activity.
 
@@ -6239,7 +5947,6 @@ P17 (x,y) ⊃ P15(x,y)</rdfs:comment>
     <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P15_was_influenced_by"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P120_occurs_before"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P120_occurs_before"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property identifies the relative chronological sequence of two temporal entities.
 
@@ -6262,7 +5969,6 @@ P120(x,y) ⊃ E2(y)</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E2_Temporal_Entity"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P164_during"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P164_during"/>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Scope note:
 This property relates an E93 Presence with an arbitrary E52 Time-Span that defines the section of the spacetime volume that this instance of E93 Presence is related to by P166 was a presence of (had presence). that is concerned by this instance of E93 Presence.
@@ -6279,7 +5985,6 @@ P164 (x,y) ⊃ E52(y)</rdfs:comment>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P33_used_specific_technique"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P33_used_specific_technique"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property identifies a specific instance of E29 Design or Procedure in order to carry out an instance of E7 Activity or parts of it.
 
@@ -6304,7 +6009,6 @@ P33(x,y) ⊃ P16(x,y)</rdfs:comment>
     >P33</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P73i_is_translation_of"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P73i_is_translation_of"/>
     <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P130i_features_are_also_found_on"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -6314,7 +6018,6 @@ P33(x,y) ⊃ P16(x,y)</rdfs:comment>
     <rdfs:label xml:lang="en">P73 is translation of</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P45i_is_incorporated_in"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P45i_is_incorporated_in"/>
     <rdfs:label xml:lang="en">P45 is incorporated in</rdfs:label>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E57_Material"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -6325,7 +6028,6 @@ P33(x,y) ⊃ P16(x,y)</rdfs:comment>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P147i_was_curated_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P147i_was_curated_by"/>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P147_curated"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E78_Collection"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E87_Curation_Activity"/>
@@ -6334,7 +6036,6 @@ P33(x,y) ⊃ P16(x,y)</rdfs:comment>
     >P147i</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P119i_is_met_in_time_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P119i_is_met_in_time_by"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E2_Temporal_Entity"/>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P119_meets_in_time_with"/>
     <rdfs:label xml:lang="en">P119 is met in time by</rdfs:label>
@@ -6343,7 +6044,6 @@ P33(x,y) ⊃ P16(x,y)</rdfs:comment>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E2_Temporal_Entity"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P152_has_parent"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P152_has_parent"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P152</skos:notation>
     <owl:inverseOf>
@@ -6368,7 +6068,6 @@ P152(x,y) ⊃ E21(x)
 P152(x,y) ⊃ E21(y)</rdfs:comment>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P143_joined"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P143_joined"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property identifies the instance of E39 Actor that becomes member of a E74 Group in an E85 Joining.
 
@@ -6391,7 +6090,6 @@ P143(x,y) ⊃ P11(x,y)</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E85_Joining"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P99i_was_dissolved_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P99i_was_dissolved_by"/>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P99_dissolved"/>
     <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P11i_participated_in"/>
     <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P93i_was_taken_out_of_existence_by"/>
@@ -6402,7 +6100,6 @@ P143(x,y) ⊃ P11(x,y)</rdfs:comment>
     <rdfs:label xml:lang="en">P99 was dissolved by</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P124_transformed"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P124_transformed"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E81_Transformation"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P124</skos:notation>
@@ -6425,7 +6122,6 @@ P124(x,y) ⊃ E77(y)
 P124(x,y) ⊃ P93(x,y)</rdfs:comment>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P134i_was_continued_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P134i_was_continued_by"/>
     <rdfs:label xml:lang="en">P134 was continued by</rdfs:label>
     <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P15i_influenced"/>
     <owl:inverseOf>
@@ -6437,7 +6133,6 @@ P124(x,y) ⊃ P93(x,y)</rdfs:comment>
     >P134i</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P137i_is_exemplified_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P137i_is_exemplified_by"/>
     <rdfs:label xml:lang="en">P137 is exemplified by</rdfs:label>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:subPropertyOf>
@@ -6449,7 +6144,6 @@ P124(x,y) ⊃ P93(x,y)</rdfs:comment>
     >P137i</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P142i_was_used_in"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P142i_was_used_in"/>
     <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P16i_was_used_for"/>
     <rdfs:label xml:lang="en">P142 was used in</rdfs:label>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P142_used_constituent"/>
@@ -6459,7 +6153,6 @@ P124(x,y) ⊃ P93(x,y)</rdfs:comment>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E15_Identifier_Assignment"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P31_has_modified"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P31_has_modified"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E11_Modification"/>
     <owl:inverseOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P31i_was_modified_by"/>
@@ -6483,7 +6176,6 @@ P31(x,y) ⊃ P12(x,y)</rdfs:comment>
     >P31</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P21_had_general_purpose"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P21_had_general_purpose"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -6507,7 +6199,6 @@ P21(x,y) ⊃ E55(y)</rdfs:comment>
     <rdfs:label xml:lang="en">P21 had general purpose</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P136i_supported_type_creation"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P136i_supported_type_creation"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P136i</skos:notation>
     <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P15i_influenced"/>
@@ -6519,7 +6210,6 @@ P21(x,y) ⊃ E55(y)</rdfs:comment>
     <rdfs:label xml:lang="en">P136 supported type creation</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P23_transferred_title_from"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P23_transferred_title_from"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property identifies the E39 Actor or Actors who relinquish legal ownership as the result of an E8 Acquisition.
 
@@ -6540,7 +6230,6 @@ P23 (x,y) ⊃ P14(x,y)</rdfs:comment>
     <rdfs:label xml:lang="en">P23 transferred title from</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P30_transferred_custody_of"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P30_transferred_custody_of"/>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P30i_custody_transferred_through"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E10_Transfer_of_Custody"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -6560,7 +6249,6 @@ P30 (x,y) ⊃ E10(x)
 P30 (x,y) ⊃ E18(y)</rdfs:comment>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P161_has_spatial_projection"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P161_has_spatial_projection"/>
     <rdfs:label xml:lang="en">P161 has spatial projection</rdfs:label>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Scope note:
@@ -6578,7 +6266,6 @@ P161(x,y) ⊃ E53(y)</rdfs:comment>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P48_has_preferred_identifier"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P48</skos:notation>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P48i_is_preferred_identifier_of"/>
@@ -6602,7 +6289,6 @@ P48(x,y) ⊃ P1(x,y)</rdfs:comment>
     <rdfs:label xml:lang="en">P48 has preferred identifier</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P116i_is_started_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P116i_is_started_by"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
     <rdfs:label xml:lang="en">P116 is started by</rdfs:label>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -6612,7 +6298,6 @@ P48(x,y) ⊃ P1(x,y)</rdfs:comment>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P116_starts"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P58_has_section_definition"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P58_has_section_definition"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P58</skos:notation>
@@ -6634,7 +6319,6 @@ P58(x,y) ⊃ E46(y)</rdfs:comment>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E46_Section_Definition"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P71_lists"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P71_lists"/>
     <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P67_refers_to"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P71</skos:notation>
@@ -6654,7 +6338,6 @@ P71(x,y) ⊃ E1(y)
 P71(x,y) ⊃ P67(x,y)</rdfs:comment>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P112_diminished"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P112_diminished"/>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P112i_was_diminished_by"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E80_Part_Removal"/>
     <rdfs:comment xml:lang="en">Scope note:
@@ -6676,7 +6359,6 @@ P112(x,y) ⊃ P31(x,y)</rdfs:comment>
     >P112</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P75_possesses"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P75_possesses"/>
     <rdfs:label xml:lang="en">P75 possesses</rdfs:label>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P75</skos:notation>
@@ -6694,7 +6376,6 @@ P75(x,y) ⊃ E39(x)
 P75(x,y) ⊃ E30(y)</rdfs:comment>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P41i_was_classified_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P41i_was_classified_by"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
     <rdfs:subPropertyOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P140i_was_attributed_by"/>
@@ -6706,7 +6387,6 @@ P75(x,y) ⊃ E30(y)</rdfs:comment>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P41_classified"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P152i_is_parent_of"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P152i_is_parent_of"/>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P152_has_parent"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -6715,7 +6395,6 @@ P75(x,y) ⊃ E30(y)</rdfs:comment>
     <rdfs:label xml:lang="en">P152 is parent of</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P69_has_association_with"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P69_has_association_with"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E29_Design_or_Procedure"/>
     <rdfs:label xml:lang="en">P69 has association with</rdfs:label>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -6745,7 +6424,6 @@ P69(x,y) ⊃P69(y,x)
 Properties: P69.1 has type: E55 Type</rdfs:comment>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P129_is_about"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P129_is_about"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property documents that an E89 Propositional Object has as subject an instance of E1 CRM Entity.
 
@@ -6767,7 +6445,6 @@ P129(x,y) ⊃ P67(x,y)</rdfs:comment>
     <rdfs:label xml:lang="en">P129 is about</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P12i_was_present_at"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P12i_was_present_at"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E5_Event"/>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P12_occurred_in_the_presence_of"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E77_Persistent_Item"/>
@@ -6776,7 +6453,6 @@ P129(x,y) ⊃ P67(x,y)</rdfs:comment>
     <rdfs:label xml:lang="en">P12 was present at</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P140i_was_attributed_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P140i_was_attributed_by"/>
     <rdfs:label xml:lang="en">P140 was attributed by</rdfs:label>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -6785,7 +6461,6 @@ P129(x,y) ⊃ P67(x,y)</rdfs:comment>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P2i_is_type_of"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P2i_is_type_of"/>
     <owl:inverseOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P2_has_type"/>
     </owl:inverseOf>
@@ -6796,12 +6471,10 @@ P129(x,y) ⊃ P67(x,y)</rdfs:comment>
     <rdfs:label xml:lang="en">P2 is type of</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P165i_is_incorporated_in"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P165i_is_incorporated_in"/>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P165_incorporates"/>
     <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P106i_forms_part_of"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P157_is_at_rest_relative_to"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P157_is_at_rest_relative_to"/>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P157i_provides_reference_space_for"/>
     <rdfs:label xml:lang="en">P157 is at rest relative to</rdfs:label>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -6821,7 +6494,6 @@ P157(x,y) ⊃ E18(y)</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P158_occupied"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P158_occupied"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E4_Period"/>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Scope note:
@@ -6836,7 +6508,6 @@ Therefore it cannot be verified, if two different instances of E4 Period occupy 
     >P158</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P150_defines_typical_parts_of"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P150_defines_typical_parts_of"/>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Scope note: 
 The property “broaderPartitive” associates an instance of E55 Type “A” with an instance of E55 Type “B”, when items of type “A” typically form part of items of type “B”, such as “car motors” and “cars”.
@@ -6858,7 +6529,6 @@ P150(x,y) ⊃ E55(y)</rdfs:comment>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P107_has_current_or_former_member"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P107_has_current_or_former_member"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property relates an E39 Actor to the E74 Group of which that E39 Actor is a member.
 
@@ -6886,7 +6556,6 @@ Properties: P107.1 kind of member: E55 Type</rdfs:comment>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P107i_is_current_or_former_member_of"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P32_used_general_technique"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P32_used_general_technique"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P32i_was_technique_of"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -6905,7 +6574,6 @@ Examples:
 - ornamentation of silver cup 113 (E11) used general technique gold-plating (E55) (Design or Procedure Type)</rdfs:comment>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P136_was_based_on"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P136_was_based_on"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P136</skos:notation>
@@ -6930,7 +6598,6 @@ Properties: P136.1 in the taxonomic role: E55 Type</rdfs:comment>
     <rdfs:label xml:lang="en">P136 was based on</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P95i_was_formed_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P95i_was_formed_by"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E66_Formation"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P95i</skos:notation>
@@ -6940,7 +6607,6 @@ Properties: P136.1 in the taxonomic role: E55 Type</rdfs:comment>
     <rdfs:label xml:lang="en">P95 was formed by</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P128_carries"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P128_carries"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object"/>
     <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P130_shows_features_of"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -6961,7 +6627,6 @@ P128(x,y) ⊃ P130(x,y)</rdfs:comment>
     <rdfs:label xml:lang="en">P128 carries</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P2_has_type"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P2_has_type"/>
     <rdfs:label xml:lang="en">P2 has type</rdfs:label>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -6981,7 +6646,6 @@ P2(x,y) ⊃ E1(x)
 P2(x,y) ⊃ E55(y)</rdfs:comment>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P39i_was_measured_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P39i_was_measured_by"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P39i</skos:notation>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
@@ -6991,7 +6655,6 @@ P2(x,y) ⊃ E55(y)</rdfs:comment>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P39_measured"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P68i_use_foreseen_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P68i_use_foreseen_by"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E57_Material"/>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P68_foresees_use_of"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -7001,7 +6664,6 @@ P2(x,y) ⊃ E55(y)</rdfs:comment>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E29_Design_or_Procedure"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P21i_was_purpose_of"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P21i_was_purpose_of"/>
     <rdfs:label xml:lang="en">P21 was purpose of</rdfs:label>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P21_had_general_purpose"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
@@ -7010,7 +6672,6 @@ P2(x,y) ⊃ E55(y)</rdfs:comment>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P31i_was_modified_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P31i_was_modified_by"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P31i</skos:notation>
     <rdfs:label xml:lang="en">P31 was modified by</rdfs:label>
@@ -7020,7 +6681,6 @@ P2(x,y) ⊃ E55(y)</rdfs:comment>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P31_has_modified"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P141_assigned"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P141_assigned"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
     <rdfs:label xml:lang="en">P141 assigned</rdfs:label>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -7035,7 +6695,6 @@ Examples:
 - 01 June 1997 Identifier Assignment of the silver cup donated by Martin Doerr (E15) assigned object identifier 232</rdfs:comment>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P146_separated_from"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P146_separated_from"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E86_Leaving"/>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P146i_lost_member_by"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
@@ -7059,7 +6718,6 @@ P146(x,y) ⊃ P11(x,y)</rdfs:comment>
     <rdfs:label xml:lang="en">P146 separated from</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P114_is_equal_in_time_to"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P114_is_equal_in_time_to"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
     <rdfs:comment xml:lang="en">Scope note:
@@ -7083,7 +6741,6 @@ P114(x,y) ⊃ P114(y,x)</rdfs:comment>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P114_is_equal_in_time_to"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P45_consists_of"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P45_consists_of"/>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P45i_is_incorporated_in"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -7105,7 +6762,6 @@ P45(x,y) ⊃ E57(y)</rdfs:comment>
     <rdfs:label xml:lang="en">P45 consists of</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P59_has_section"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P59_has_section"/>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P59i_is_located_on_or_within"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
     <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P157i_provides_reference_space_for"/>
@@ -7129,7 +6785,6 @@ P59(x,y) ⊃ E53(y)</rdfs:comment>
     <rdfs:label xml:lang="en">P59 has section</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P105i_has_right_on"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P105i_has_right_on"/>
     <rdfs:label xml:lang="en">P105 has right on</rdfs:label>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P105_right_held_by"/>
@@ -7138,7 +6793,6 @@ P59(x,y) ⊃ E53(y)</rdfs:comment>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E72_Legal_Object"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P92_brought_into_existence"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P92_brought_into_existence"/>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P92i_was_brought_into_existence_by"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property allows an E63 Beginning of Existence event to be linked to the E77 Persistent Item brought into existence by it.
@@ -7160,7 +6814,6 @@ P92(x,y) ⊃ P12(x,y)</rdfs:comment>
     >P92</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P125_used_object_of_type"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P125_used_object_of_type"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P125</skos:notation>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P125i_was_type_of_object_used_in"/>
@@ -7178,7 +6831,6 @@ P125(x,y) ⊃ E55(y)</rdfs:comment>
     <rdfs:label xml:lang="en">P125 used object of type</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P91_has_unit"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P91_has_unit"/>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P91i_is_unit_of"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -7196,7 +6848,6 @@ P91(x,y) ⊃ E54(x)
 P91(x,y) ⊃ E58(y)</rdfs:comment>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P113_removed"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P113_removed"/>
     <owl:inverseOf>
       <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P113i_was_removed_by"/>
     </owl:inverseOf>
@@ -7218,7 +6869,6 @@ P113(x,y) ⊃ P12(x,y)</rdfs:comment>
     <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P12_occurred_in_the_presence_of"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P113i_was_removed_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P113i_was_removed_by"/>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P113_removed"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P113i</skos:notation>
@@ -7228,7 +6878,6 @@ P113(x,y) ⊃ P12(x,y)</rdfs:comment>
     <rdfs:label xml:lang="en">P113 was removed by</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P69i_is_associated_with"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P69i_is_associated_with"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E29_Design_or_Procedure"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P69i</skos:notation>
@@ -7237,7 +6886,6 @@ P113(x,y) ⊃ P12(x,y)</rdfs:comment>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P69_has_association_with"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P52i_is_current_owner_of"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P52i_is_current_owner_of"/>
     <rdfs:label xml:lang="en">P52 is current owner of</rdfs:label>
     <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P105i_has_right_on"/>
     <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P51i_is_former_or_current_owner_of"/>
@@ -7247,7 +6895,6 @@ P113(x,y) ⊃ P12(x,y)</rdfs:comment>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P52_has_current_owner"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P134_continued"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P134_continued"/>
     <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P15_was_influenced_by"/>
     <rdfs:comment xml:lang="en">Scope note:
 This property associates two instances of E7 Activity, where the domain is considered as an intentional continuation of the range. A continuation of an activity may happen when the continued activity is still ongoing or after the continued activity has completely ended. The continuing activity may have started already before it decided to continue the other one. Continuation implies a coherence of intentions and outcomes of the involved activities.
@@ -7267,7 +6914,6 @@ P134(x,y) ⊃ P15(x,y)</rdfs:comment>
     >P134</skos:notation>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P160_has_temporal_projection"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P160_has_temporal_projection"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >P160</skos:notation>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E92_Spacetime_Volume"/>
@@ -7284,7 +6930,6 @@ P160(x,y)⊃ E52(y)</rdfs:comment>
     <rdfs:label xml:lang="en">P160 has temporal projection</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P103i_was_intention_of"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P103i_was_intention_of"/>
     <rdfs:label xml:lang="en">P103 was intention of</rdfs:label>
     <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P103_was_intended_for"/>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
@@ -7293,7 +6938,6 @@ P160(x,y)⊃ E52(y)</rdfs:comment>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E71_Man-Made_Thing"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P163_is_restricted_by"> 
-<owl:equivalentProperty rdf:resource="http://erlangen-crm.org/current/P163_is_restricted_by"/>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Scope note:
 This property relates an E93 Spacetime Snapshot with an arbitrary instance of E53 Place that restricts the extent of the former to a volume within the back-projection of the instance of E53 Place to all times. If the instance of E53 Place is defined in two dimensions only, such as the footprint of a building, the place needs also to be back-projected into the third dimension. 
